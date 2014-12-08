@@ -1,0 +1,4 @@
+# Ignore video files
+public/videos/*
+*.mp4
+*.mkv

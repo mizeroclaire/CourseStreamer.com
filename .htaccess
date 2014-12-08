@@ -1,0 +1,11 @@
+##Block Index Display##
+Options All -Indexes
+
+## ERROR 404 Handler ##
+ErrorDocument 404 http://localhost/new-crst/404.html
+
+
+ 
+RewriteEngine On 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteRule ^(.*)$ %{ENV:BASE}index.php [QSA,L]

@@ -1,0 +1,70 @@
+body{
+	background:#333;
+}
+video{
+    border: 4px solid white;
+}
+span{
+	color:orange;
+	font-family:Comic sans;
+	font-size:16px;
+}
+.header>ul li{
+	list-style-type:none;
+}
+.signup{
+	margin-left:70%;
+}
+.signin>a{
+	color:white;
+}
+.signup>a{
+	color:white;
+}
+.basicinfo{
+	background:#278998;
+	color:white;
+	width:100%;
+}
+.hints{
+	
+}
+.learnSuggestion>.html{
+	color:#000;
+}
+.lectures{
+	background:#fff;
+	border-radius:0px;
+	min-height:0px;
+	color:white;
+	overflow:auto;
+}
+.lectures>h5{
+	color:#278998;
+	font-family:Comic sans;
+	font-size:28px;
+}
+.lesson{
+    background: #;
+    width: 25%;
+    min-height: 85px;
+    border-top: 12px solid white;
+    border-left:2px solid white;
+    border-right: 2px solid white;
+}
+.tutorials{
+    background: #000;
+    color:black;
+    height: 420px;
+    border-top: 2px solid #204056;
+}
+.magnifier{
+    background: #fff;
+    color: white;
+    border-left: 2px solid white;
+    height: 445px;
+    border-bottom:2px solid white;
+}
+.footer>.copy{
+    margin-top: 40px;
+}
