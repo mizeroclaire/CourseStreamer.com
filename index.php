@@ -20,6 +20,7 @@ define("JS", ROOT."public/js");
 define("IMGS", ROOT."public/img");
 define("VIDS", ROOT."public/videos");
 
+define("ANIMATE_POPOVER", ROOT."app/classes/Animate.Popover.php");
 
 // START THE APP
 include BOOT;
