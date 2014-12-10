@@ -1,6 +1,6 @@
 <?php
 
-// RESTRICT ACCESS
+// ? RESTRICT ACCESS
 
 
 // PROJECT ROOT
