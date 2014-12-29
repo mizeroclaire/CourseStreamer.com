@@ -75,7 +75,7 @@ class Home extends Ini{
 		<?php
 	}
 }
-$use_home=new home();
+$use_home = new Home();
 $use_home->main();
 $use_home->set_footer('0','#fff;');
 
