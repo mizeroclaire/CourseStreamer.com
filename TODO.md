@@ -15,3 +15,6 @@ public/
  js/
  videos/
  img/
+
+ USERNAME: richard457, beastar457@gmail.com
+ PASS: umwana789

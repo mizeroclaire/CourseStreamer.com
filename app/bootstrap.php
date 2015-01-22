@@ -2,10 +2,11 @@
 
 // BOOTSTRAP CLASSES
 include INI;
-include AUTH;
+//include AUTH;
 
 // LOAD NAMESPACES
 use CourseStreamer\Ini as Ini;
+
 use CourseStreamer\Auth as Auth;
 use CourseStreamer\Animate as Animate;
 

@@ -1,12 +1,11 @@
 <?php
-
-namespace CourseStreamer\Auth;
-
+namespace CourseStreamer\Ini;
 require_once(ANIMATE_POPOVER);
-
+namespace CourseStreamer\Auth;
+use CourseStreamer\Animate\Popover as Popover; 
 class Login extends Popover
 {
-	public function login(){
+	public function Login(){
 		if(!self::noMemberLoggedIN()){
 			echo "we are having less people using this system!";
 		}else{
@@ -49,7 +48,4 @@ class Login extends Popover
 <?php
 	}
 }
-$obj= new login();
-$obj->login();
-
 ?>

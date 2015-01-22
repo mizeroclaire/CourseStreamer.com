@@ -1,70 +1,116 @@
-body{
+ body{
 	background:#333;
+	font-family: Verdana, Arial, Sans-Serif;
+  	background-color:#e0e0e0;
+  	-webkit-font-smoothing: antialiased;
+  	font-size: 16px;
+  	margin: 0;
 }
-video{
-    border: 4px solid white;
+small{
+	float: left;
+	color: #fff;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 15px;
 }
-span{
-	color:orange;
-	font-family:Comic sans;
-	font-size:16px;
+.col-md-12,.col-lg-12,.col-sm-12{
+	background: #3498db;
 }
-.header>ul li{
-	list-style-type:none;
+#content.container{
+	min-height: 400px;
+	width: 100%;
 }
-.signup{
-	margin-left:70%;
+#container img{
+	width: 120px;
+	height: 80px;
 }
-.signin>a{
-	color:white;
-}
-.signup>a{
-	color:white;
-}
-.basicinfo{
-	background:#278998;
-	color:white;
-	width:100%;
-}
-.hints{
+#divContent{
+	width:50%;
+	height:220px;
 	
+	background:#3CF;
+	color:#FFF;
+	float:left;
+	display:inline;
+	-moz-border-radius:20px;
 }
-.learnSuggestion>.html{
-	color:#000;
+#divContent img{
+	float:left;
+
+	padding:16px;
+	margin:0.7em;
 }
-.lectures{
-	background:#fff;
-	border-radius:0px;
-	min-height:0px;
-	color:white;
-	overflow:auto;
+#divContent h4{
+	padding-top:2em;
+	padding-bottom:0;
+	padding-left:0;
+	padding-right:0;
 }
-.lectures>h5{
-	color:#278998;
-	font-family:Comic sans;
-	font-size:28px;
-}
-.lesson{
-    background: #;
-    width: 25%;
-    min-height: 85px;
-    border-top: 12px solid white;
-    border-left:2px solid white;
-    border-right: 2px solid white;
-}
-.tutorials{
-    background: #000;
-    color:black;
-    height: 420px;
-    border-top: 2px solid #204056;
-}
-.magnifier{
-    background: #fff;
-    color: white;
-    border-left: 2px solid white;
-    height: 445px;
-    border-bottom:2px solid white;
-}
-.footer>.copy{
-    margin-top: 40px;
-}
+#divContent2{
+	width:50%;
+	height:220px;
+	
+	background:#d35400;
+	color:#FFF;
+	float:left;
+	display:inline;
+	-moz-border-radius:20px;
+	}
+#divContent2 img{
+	float:left;
+	padding:16px;
+	margin:0.7em;
+	
+	}
+#divContent2 h4{
+	padding-top:2em;
+	padding-bottom:0;
+	padding-left:0;
+	padding-right:0;
+	}
+#divContent3{
+	width:50%;
+	height:220px;
+	
+	background:#06C;
+	color:#FFF;
+	float:left;
+	display:inline;
+	-moz-border-radius:20px;
+	}
+#divContent3 img{
+	float:left;
+	padding:16px;
+	height: 80px;
+	margin:0.7em;
+	
+	}
+#divContent3 h4{
+	padding-top:2em;
+	padding-bottom:0;
+	padding-left:0;
+	padding-right:0;
+	}	
+#divContent4{
+	width:50%;
+	height:220px;
+	
+	background:#5bc0de;
+	color:#fff;
+	float:left;
+	display:inline;
+	-moz-border-radius:20px;
+	}
+#divContent4 img{
+	float:left;
+	padding:16px;
+	height: 80px;
+	margin:0.7em;
+	
+	}
+#divContent4 h4{
+	padding-top:2em;
+	padding-bottom:0;
+	padding-left:0;
+	padding-right:0;
+	}
+	

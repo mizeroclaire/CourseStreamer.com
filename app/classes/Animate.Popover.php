@@ -1,9 +1,12 @@
 <?php
 
-namespace CourseStreamer\Animate;
+namespace CourseStreamer\Ini;
 
-class Popover {
+class Popover
+{
 	
+	public function doSth(){
+		echo "string";
+	}
 }
-
 ?>
