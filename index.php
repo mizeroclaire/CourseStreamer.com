@@ -1,8 +1,9 @@
 <?php
 // RESTRICT ACCESS
 
-// PROJECT ROOT
-define("ROOT", $_SERVER["DOCUMENT_ROOT"]."/richard457-CourseStreamer/");
+
+// PROJECT ROOT (__DIR__ gets the directory containing this file)
+define("ROOT", __DIR__ . "/");
 
 // COMMON PATHS
 define("INI", ROOT."app/classes/Ini.php");
@@ -25,11 +26,8 @@ define("Ajax", ROOT."public/js/Ajax.js");
 define("JsLogin", ROOT."public/js/loginFunctions.js");
 define("JsSignUp", ROOT."public/js/signup.js");
 
-
 define("IMGS", ROOT."public/img");
 define("VIDS", ROOT."public/videos");
-
-
 
 // START THE APP
 include BOOT;
