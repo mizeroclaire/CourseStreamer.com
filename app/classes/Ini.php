@@ -3,27 +3,32 @@ namespace CourseStreamer;
 	
 class Ini{
 
-	public function load_css(){
+	 function Css(){
 		?>
-			<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+         
+            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="public/css/bootstrap-responsive.css">
+            <link rel="stylesheet" type="text/css" href="public/css/StudyPage.css">
+            
+            <link rel="stylesheet" type="text/css" href="public/css/menu.css">
+           
+            <link rel="stylesheet" type="text/css" href="public/css/custom.css">
+            <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+            <link rel="stylesheet" type="text/css" href="public/css/jquery.fancybox-1.3.4.css" media="screen" />
             <script type="text/javascript" src="js/ajax.js"></script>
             <script src="public/js/jquery-1.9.1.min.js"></script>
             <script src="public/js/bootstrap.min.js"></script>
             <script src="public/js/bootstrap.js"></script>
-             <link rel="stylesheet" type="text/css" href="public/css/login.css">
-            <link rel="stylesheet" type="text/css" href="public/css/footer.css">
-            <link rel="stylesheet" type="text/css" href="public/css/colors.css">
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-                <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-            <link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">
-            <link rel="stylesheet" type="text/css" href="public/css/bootstrap-responsive.css">
-            <link rel="stylesheet" type="text/css" href="public/css/custom.css">
-            <link rel="stylesheet" type="text/css" href="public/css/styles.css">
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+              <!--this is for login popup-->
+            <script type="text/javascript" src="public/js/jquery.mousewheel-3.0.4.pack.js"></script>
+            <script type="text/javascript" src="public/js/jquery.fancybox-1.3.4.pack.js"></script>
 		<?php
 	}
     
-    public function menu(){
+    function menu(){
         $this->load_css();
         ?>
              <div class="navbar navbar-default" style="margin-top:px;width:100%;position:">
@@ -45,59 +50,12 @@ class Ini{
                 </div>
         <?php
     }
-	 public static function html_type()
+	function Type()
     {
         ?>
             <!DOCTYPE html>
         <?php
     }
-	 public function set_footer($aligne,$color)
-    {
-        ini::load_css();
-        ini::html_type();
-        ?>
-            <footer class="footer col-sm-12 col-lg-12 col-md-12 visible-desktop" align="center" style="margin-top:<?php echo$aligne; ?>%;background:#2d3033;height:190px;color:<?php echo $color;  ?>">
-               
-                <script type="text/javascript">
-                $(document).ready(function(){
-                    $("#featured").tabs({fx:[{opacity: "toggle", duration: 'slow'}, {opacity: "toggle", duration: 'normal'}],
-                        show: function(event, ui){
-                            $('#featured .ui-tabs-panel .info').hide();
-                            var infoheight=$('.info', ui.panel).height();
-                            $('.info', ui.panel).css('height', '0px').animate({ 'height': infoheight }, 500);
-                        }
-                    }).tabs("rotate", 5000, true);
-                    $('#featured').hover(
-                        function(){ $('#featured').tabs('rotate', 0, true); },
-                        function(){ $('#featured').tabs('rotate', 5000, true); }
-                    );
-                    $('#featured .ui-tabs-panel a.hideshow').click(function(){
-                        if($(this).text()=='Hide'){
-                            $(this).parent('.info').animate({ 'height': '0px' }, 500);
-                            $(this).text('Show');
-                        }
-                        else{
-                            $(this).parent('.info').animate({ 'height': '70px' }, 500);
-                            $(this).text('Hide');
-                        }
-                        return false;
-                    });
-                });
-            </script>
-                <div class="col-sm-4 col-md-4 col-lg-4">
-                    <p>Course streamer school is<br> an online school that teach programming<br> and many other related concepts<br> it has been created to spread knowledge to all people at low or free cost if you need to invest with us <a href="mailto:richard@youthoughts.com">richard@youthoughts.com</a></p>
-                </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
-                    this is about school and share
-                </div>
-                <div class="col-sm-4 col-md-4 col-lg-4">
-                    this is about school and share
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-12 copy">
-                     &copy; 2014 by youthoughts group ltd
-                </div>
-            </footer>
-        <?php
-    }
+	
 }
 ?>
