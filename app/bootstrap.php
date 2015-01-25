@@ -1,18 +1,17 @@
 <?php
 
-// BOOTSTRAP CLASSES
-include INI;
-//include AUTH;
+// autoload classes with composer
+require COMPOSER.'/autoload.php';
 
-// LOAD NAMESPACES
-use CourseStreamer\Ini as Ini;
+// load app classes,namespaces as aliases
+use Strimup\Ini as Ini;
+use Strimup\Auth as Auth;
+use Strimup\Animate as Animate;
 
-use CourseStreamer\Auth as Auth;
-use CourseStreamer\Animate as Animate;
+// load composer classes as aliases
+class_alias('Cartalyst\Sentry\Facades\Native\Sentry', 'Sentry'); // Sentry alias
 
-// MANAGE VIEWS
-include VIEWS."/manage.php";
-
-
+// load main view
+include ROOT."app/views/manage.php";
 
 ?>

@@ -27,8 +27,8 @@
 			"echo ............................................"
 		],
 		"post-update-cmd": [
-			"php artisan clear-compiled",
-			"php artisan optimize"
+			"composer dump-autoload",
+			"composer self-update"
 		]
 	},
 	"config": {
