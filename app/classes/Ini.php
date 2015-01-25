@@ -30,7 +30,6 @@ class Ini{
             <script type="text/javascript" src="public/js/jquery.mousewheel-3.0.4.pack.js"></script>
             <script type="text/javascript" src="public/js/jquery.fancybox-1.3.4.pack.js"></script>
             <!--js for introduction-->
-
             <script type="text/javascript" src="public/js/intro.js"></script>
 		<?php
 	}

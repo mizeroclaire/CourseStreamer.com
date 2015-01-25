@@ -22,9 +22,7 @@ define("VIEWS", ROOT."app/views");
 define("PUBLIC", ROOT."public");
 define("CSS", ROOT."public/css");
 define("JS", ROOT."public/js");
-define("Ajax", ROOT."public/js/Ajax.js");
-define("JsLogin", ROOT."public/js/loginFunctions.js");
-define("JsSignUp", ROOT."public/js/signup.js");
+
 
 define("IMGS", ROOT."public/img");
 define("VIDS", ROOT."public/videos");
