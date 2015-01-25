@@ -29,12 +29,6 @@ define("JsSignUp", ROOT."public/js/signup.js");
 define("IMGS", ROOT."public/img");
 define("VIDS", ROOT."public/videos");
 
-<<<<<<< HEAD
-define("ANIMATE_POPOVER", ROOT."app/classes/Animate.Popover.php");
-
-=======
->>>>>>> 402b42fa9627696ad998682ba3b83875298eb177
-// START THE APP
 include BOOT;
 
 ?>
