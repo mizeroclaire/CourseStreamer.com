@@ -1,4 +1,10 @@
 # Ignore video files
-public/videos/*
+/public/videos
 *.mp4
 *.mkv
+
+# Ignore downloads folder
+/public/dl
+
+# composer
+/vendor

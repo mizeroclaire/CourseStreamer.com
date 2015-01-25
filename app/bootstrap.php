@@ -13,4 +13,6 @@ use CourseStreamer\Animate as Animate;
 // MANAGE VIEWS
 include VIEWS."/manage.php";
 
+
+
 ?>
