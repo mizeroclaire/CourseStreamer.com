@@ -28,7 +28,6 @@ use CourseStreamer\Ini as Ini;
                 <div id="head">Mates</div>
             </div>
             <div class="clear"></div>
-
        </div>
        <!--this part is visible to phone-->
        <div class="phone visible-phone col-lg-12">
