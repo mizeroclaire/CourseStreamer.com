@@ -16,6 +16,10 @@ class Ini{
             <link rel="stylesheet" type="text/css" href="public/css/custom.css">
             <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
             <link rel="stylesheet" type="text/css" href="public/css/jquery.fancybox-1.3.4.css" media="screen" />
+
+            <!--css for Introduction-->
+            <link rel="stylesheet" type="text/css" href="public/css/introjs-rtl.css" media="screen" />
+            <link rel="stylesheet" type="text/css" href="public/css/introjs.css" media="screen" />
             <script type="text/javascript" src="js/ajax.js"></script>
             <script src="public/js/jquery-1.9.1.min.js"></script>
             <script src="public/js/bootstrap.min.js"></script>
@@ -25,6 +29,9 @@ class Ini{
               <!--this is for login popup-->
             <script type="text/javascript" src="public/js/jquery.mousewheel-3.0.4.pack.js"></script>
             <script type="text/javascript" src="public/js/jquery.fancybox-1.3.4.pack.js"></script>
+            <!--js for introduction-->
+
+            <script type="text/javascript" src="public/js/intro.js"></script>
 		<?php
 	}
     
