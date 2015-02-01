@@ -3,6 +3,9 @@
 // PROJECT ROOT - __DIR__ gets the directory containing this file)
 define("ROOT", __DIR__ . "/");
 
+// home directory
+define("HOME_URL", 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']);
+
 // project boot - bootstrap file needed to load dependencies
 define("BOOT", ROOT."app/bootstrap.php");
 
@@ -17,7 +20,7 @@ define("DL_ROOT", ROOT."public/dl");
 define("COMPOSER", ROOT."vendor");
 
 // views
-define("VIEWS", ROOT."app/views");
+define("VIEWS", ROOT."app/views"."/");
 
 // COMMON PATHS
 define("INI", ROOT."app/classes/Ini.php");
