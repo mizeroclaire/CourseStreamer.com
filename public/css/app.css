@@ -2,3 +2,17 @@ body #container {
 	width: 80%;
 	margin: 0 auto;
 }
+
+body main {
+	width: 100%;
+	margin: 0 auto;
+
+	background: #AED;
+}
+
+body main h1 {
+	margin-top: 0.6rem;
+	font-size: 1.8em;
+	font-family: "Times New Roman";
+	color: #A6A;
+}

@@ -20,7 +20,7 @@ define("DL_ROOT", ROOT."public/dl");
 define("COMPOSER", ROOT."vendor");
 
 // views
-define("VIEWS", ROOT."app/views");
+define("VIEWS", ROOT."app/views"."/");
 
 // COMMON PATHS
 define("INI", ROOT."app/classes/Ini.php");
