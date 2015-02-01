@@ -1,7 +1,7 @@
 <?php
 // RESTRICT ACCESS
 
-// include constants
+// load commonly used constants
 include 'constants.php';
 
 // START THE APP

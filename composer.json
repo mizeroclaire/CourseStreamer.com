@@ -1,7 +1,7 @@
 {
 	"name": "richard457/Strimup",
-	"description": "A platform for learning programming",
-	"keywords": ["strimup", "programming", "courses", "learn", "platform"],
+	"description": "Fun programming lessons",
+	"keywords": ["strimup", "programming", "courses", "learn", "platform", "fun"],
 	"license": "Apache License 2.0",
 	"require": {
 		"cartalyst/sentry": "2.1.*",
