@@ -47,8 +47,9 @@ function Body(){
 		     </script>
 			</body>
 		</html>
+		
 	<?php
 	}
 }
-//session_set_save_handler(open, close, read, write, destroy, gc)
+
 ?>

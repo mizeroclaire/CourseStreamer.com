@@ -17,7 +17,7 @@ define("VIDS_ROOT", ROOT."public/videos");
 define("DL_ROOT", ROOT."public/dl");
 
 // composer vendor folder
-define("COMPOSER", ROOT."vendor");
+define("COMPOSER", ROOT."vendor"."/");
 
 // views
 define("VIEWS", ROOT."app/views"."/");

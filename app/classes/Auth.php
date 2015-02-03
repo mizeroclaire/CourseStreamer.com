@@ -1,8 +1,7 @@
 <?php
 namespace CourseStreamer\Ini;
 require_once(ANIMATE_POPOVER);
-namespace CourseStreamer\Auth;
-use CourseStreamer\Animate\Popover as Popover; 
+
 class Login extends Popover
 {
 	public function Login(){
@@ -48,4 +47,8 @@ class Login extends Popover
 <?php
 	}
 }
+
+$obj= new Login();
+$obj->login();
+
 ?>
