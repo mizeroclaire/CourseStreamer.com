@@ -9,4 +9,5 @@ if(! Sentry::check()){
 else{
 	include VIEWS.'/dashboard.php';
 }
+
 ?>

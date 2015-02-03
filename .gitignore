@@ -1,12 +1,10 @@
 # Ignore video files
-/public/videos
+
+public/videos/*
 *.mp4
 *.mkv
 
-# Ignore downloads folder
-/public/dl
+# Composer
 
-# composer
-/vendor
-
-TODO.md
+composer.lock
+vendor/
