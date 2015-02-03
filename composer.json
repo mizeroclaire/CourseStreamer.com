@@ -6,7 +6,8 @@
 	"require": {
 		"cartalyst/sentry": "2.1.*",
 		"nesbot/Carbon": "*",
-		"illuminate/routing": "4.2.*"
+		"illuminate/routing": "4.2.*",
+		"illuminate/events": "4.2.*"
 	},
 	"autoload": {
 		"classmap": [
