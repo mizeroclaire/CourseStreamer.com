@@ -1,10 +1,10 @@
 # Ignore video files
 
-public/videos/*
+public/video/*
 *.mp4
 *.mkv
 
 # Composer
 
+vendor/*
 composer.lock
-vendor/
