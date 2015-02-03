@@ -6,6 +6,7 @@
 	"require": {
 		"cartalyst/sentry": "2.1.*",
 		"nesbot/Carbon": "*",
+		"illuminate/routing": "4.2.*"
 	},
 	"autoload": {
 		"classmap": [
@@ -14,7 +15,7 @@
 			"app/models",
 			"app/db/vendor",
 			"app/db/seeds",
-			"app/db",
+			"app/db"
 		]
 	},
 	"scripts": {
