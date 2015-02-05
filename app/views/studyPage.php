@@ -1,6 +1,5 @@
 <?php 
 use CourseStreamer\Ini as Ini;
-
     $use=new Study();
     class Study extends Ini{
       public  function Study(){
@@ -11,48 +10,6 @@ use CourseStreamer\Ini as Ini;
     <div id="study" class="col-md-12 mycontainer">
        <div class="grid1 visible-desktop">
             <h1>Notice Board</h1>
-            <script type="text/javascript">
-            function startIntro(){
-                var intro = introJs();
-                  intro.setOptions({
-                    steps: [
-                      { 
-                        intro: "Welcome to StrimUp"
-                      },
-                      {
-                        element: document.querySelector('#step1'),
-                        intro: "Your course Update will be here."
-                      },
-                      {
-                        element: document.querySelectorAll('#step2')[0],
-                        intro: "Ok, wasn't that fun?",
-                        position: 'right'
-                      },
-                      {
-                        element: '#step3',
-                        intro: 'More features, more fun.',
-                        position: 'left'
-                      },
-                      {
-                        element: '#step4',
-                        intro: "Another step.",
-                        position: 'bottom'
-                      },
-                      {
-                        element: '#step5',
-                        intro: 'Get it, use it.'
-                      }
-                    ]
-                  });
-
-                  intro.start();
-              }
-              introJs().start();
-            </script>
-             
-            <div id="step1" class="span6">I am step one</div>
-            <a class="btn btn-large btn-success" href="javascript:void(0);" onclick="startIntro();">Show me how</a>
-            
        </div>
        <div class="grid1 visible-desktop">
             <h1>Course Update</h1>
@@ -71,6 +28,7 @@ use CourseStreamer\Ini as Ini;
                 <div id="head">Mates</div>
             </div>
             <div class="clear"></div>
+
        </div>
        <!--this part is visible to phone-->
        <div class="phone visible-phone col-lg-12">

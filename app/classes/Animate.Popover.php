@@ -1,6 +1,6 @@
 <?php
 
-namespace CourseStreamer\Ini;
+namespace Strimup;
 
 class Popover
 {

@@ -47,6 +47,7 @@ function Body(){
 		     </script>
 			</body>
 		</html>
+		
 	<?php
 	}
 }

@@ -1,5 +1,43 @@
 {
-
-    "require": {
-        "monolog/monolog": "1.2.*"
-    }
+	"name": "richard457/Strimup",
+	"description": "Fun programming lessons",
+	"keywords": ["strimup", "programming", "courses", "learn", "platform", "fun"],
+	"license": "Apache License 2.0",
+	"require": {
+		"cartalyst/sentry": "2.1.*",
+		"nesbot/Carbon": "*",
+		"illuminate/routing": "4.2.*",
+		"illuminate/events": "4.2.*"
+	},
+	"autoload": {
+		"classmap": [
+			"app/classes",
+			"app/controllers",
+			"app/models",
+			"app/db/vendor",
+			"app/db/seeds",
+			"app/db"
+		]
+	},
+	"scripts": {
+		"pre-install-cmd": [
+			"echo Composer is installing your packages. This may take a while so please be patient...",
+			"echo ............................................"
+		],
+		"post-install-cmd": [
+			"echo Composer packages have been installed. Don't forget to keep updating them over time (composer update) to keep the application up to date...",
+			"echo ............................................"
+		],
+		"post-update-cmd": [
+			"composer dump-autoload",
+			"composer self-update"
+		]
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"require-dev": {
+   	"fzaninotto/faker": "v1.3.0"
+	},
+	"minimum-stability": "stable"
+}
