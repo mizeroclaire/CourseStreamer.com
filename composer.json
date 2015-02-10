@@ -7,15 +7,16 @@
 		"cartalyst/sentry": "2.1.*",
 		"nesbot/Carbon": "*",
 		"illuminate/routing": "4.2.*",
-		"illuminate/events": "4.2.*"
+		"illuminate/events": "4.2.*",
+		"illuminate/support": "4.2.*@dev",
+    	"illuminate/container": "4.2.*@dev"
 	},
 	"autoload": {
 		"classmap": [
 			"app/classes",
 			"app/controllers",
 			"app/models",
-			"app/db/vendor",
-			"app/db/seeds",
+			
 			"app/db"
 		]
 	},
