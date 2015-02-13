@@ -14,7 +14,7 @@
 	StrimUp|Home
 </title>
 </head>
-<body class="app">
+<body class="app" style="font-family: Verdana, Arial, Sans-Serif;">
 
 <div id="container">
 
@@ -60,12 +60,13 @@
   <footer class="text-center">
     <div class="row">
       <div class="large-12 columns">
-        <h3>Register an account</h3>
-        <p><a href="home" class="button radius success">Sign Up</a>
+        <h3>Register an account or Sign In</h3>
+        <p><a href="auth/register" class="button radius success">Sign Up</a>
+          <a href="auth/login" class="button radius primary">Sign In</a>
         <br>To be able to <b>save videos to playlist, watch premium videos, and so much more</b></p>
         <hr>
         <h6>
-        &copy; <?php date_default_timezone_set('UTC'); echo date('Y'); ?>
+        &copy; <?php date_default_timezone_set('UTC'); echo date('Y'); ?>by StrimUp&trade;
         </h6>
       </div>
     </div>
