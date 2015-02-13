@@ -1,1 +1,0 @@
-Algorithms dealing with Database
