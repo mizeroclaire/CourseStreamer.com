@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+/vendor
+/node_modules
+.env
+=======
+# Ignore video files
+
+public/video/*
+*.mp4
+*.mkv
+
+# Composer
+
+vendor/*
+composer.lock
+>>>>>>> 7f45c7ec2e28b04f32d791d33c03b2ef1d6bf0ae
