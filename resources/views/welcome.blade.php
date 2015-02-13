@@ -46,7 +46,7 @@
   <div class="large-6 columns text-center">
     <br>
     <video src="" autobuffer autoloop loop controls poster="/images/video.png"></video>
-    <a href="#" class="button radius">View here in the Playground</a>
+    <a href="/play-ground" class="button radius">View here in the Playground</a>
   </div>
 </div>
 <!--end of middle view-->

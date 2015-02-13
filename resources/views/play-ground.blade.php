@@ -8,9 +8,11 @@
 				<div class="panel-heading">Home</div>
 
 				<div class="panel-body">
-					You are logged in!
+					This will be your Play-ground page!
 				</div>
-				
+				<div>
+					{{$message}}
+				</div>
 			</div>
 		</div>
 	</div>

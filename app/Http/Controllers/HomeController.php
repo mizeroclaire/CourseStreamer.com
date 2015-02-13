@@ -32,5 +32,17 @@ class HomeController extends Controller {
 	{
 		return view('home');
 	}
+	public function settings()
+	{
+		return view('settings');
+	}
+	public function privacy()
+	{
+		return view('privacy');
+	}
+	public function play()
+	{
+		return view('play-ground')->with('message','hello you are watching fews video please upgrade to premium to see more!');
+	}
 
 }
