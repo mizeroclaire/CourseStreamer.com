@@ -40,6 +40,10 @@ class HomeController extends Controller {
 	{
 		return view('privacy');
 	}
+	public function error()
+	{
+		return view('503');
+	}
 	public function play()
 	{
 		return view('play-ground')->with('message','hello you are watching fews video please upgrade to premium to see more!');
