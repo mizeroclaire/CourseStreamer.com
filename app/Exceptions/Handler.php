@@ -2,7 +2,7 @@
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
-
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;//to trigger page not found error
 class Handler extends ExceptionHandler {
 
 	/**
@@ -26,7 +26,6 @@ class Handler extends ExceptionHandler {
 	{
 		return parent::report($e);
 	}
-
 	/**
 	 * Render an exception into an HTTP response.
 	 *
@@ -34,9 +33,18 @@ class Handler extends ExceptionHandler {
 	 * @param  \Exception  $e
 	 * @return \Illuminate\Http\Response
 	 */
-	public function render($request, Exception $e)
-	{
-		return parent::render($request, $e);
-	}
+	//public function render($request, Exception $e)
+	//{
+	//	return parent::render($request, $e);
+	//}
+//function to trigger and give custom error on page not found error
+	public function render($request, Exception $e){
+	    if($e instanceof NotFoundHttpException)
+	 	{
+
+	        return response()->view('error', [], 404);
+	    }
+	    	return parent::render($request, $e);
+		}
 
 }

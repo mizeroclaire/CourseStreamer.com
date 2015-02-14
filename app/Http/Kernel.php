@@ -1,7 +1,7 @@
 <?php namespace App\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
-
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 class Kernel extends HttpKernel {
 
 	/**
@@ -29,6 +29,20 @@ class Kernel extends HttpKernel {
 		'guest' => 'App\Http\Middleware\RedirectIfAuthenticated',
 	];
 	//catch   {      relapse $this->app->make ->view('home') ;  } 
-	
+	public function handle($request)
+	{
+    	try
+    {
+        return parent::handle($request);
+    }
+    	catch(\Symfony\Component\HttpKernel\Exception\NotFoundHttpException $e)
+    {
+        return $this->app->make('Illuminate\Routing\ResponseFactory')->view('503', [], 404);
+    }
+    	catch (Exception $e)
+    {
+        throw $e;
+    }
+}
 
 }

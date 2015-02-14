@@ -72,7 +72,7 @@
     </div>
   </footer>
 </div>
-
+@yield('content')
   <script src="/vendor/foundation-5.5.0/js/vendor/jquery.js" type="text/javascript" charset="utf-8" async defer></script>
   <script src="/vendor/foundation-5.5.0/js/foundation.min.js" type="text/javascript" charset="utf-8" async defer></script>
   <script>
