@@ -22,8 +22,8 @@
 		<div class="row">
 			<div class="large-12 columns">
 				<hgroup>
-					<h1 class="app-name">Strim Up</h1>
-					<h3 class="app-slogan">Fun lessons in programming</h3>
+					<h1 style="font-family: Verdana, Arial, Sans-Seri"class="app-name">Strim Up</h1>
+					<h3 style="font-family: Verdana, Arial, Sans-Seri" class="app-slogan">Fun lessons in programming.</h3>
 				</hgroup>
 			</div>
 		</div>
