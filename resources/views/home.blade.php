@@ -1,24 +1,46 @@
 @extends('app')
 
 @section('content')
-<div id="position">
-	<div class="first">
-		<a href="#">StrimUp Mix</a>
-	</div>
-	<div class="second">
-		<a href="#">StrimUp bizz</a>
-	</div>
-	<div class="third">
-		<a href="#">StrimUp edu</a>
-	</div>
-</div>
-	<div class="content">
-		This is chat, messages either from class mates, business or other based on some configuration made by a user.
-	</div>
-	<div class="diverse">
-		<button class="btn btn-primary fontbutton position">Jump To Class</button>
-	</div>
-	<footer>
-		StrimUp&trade;
-	</footer>
+    <div class="col-lg-12">
+        <div class="friends">
+            <div class="active">
+            	<img class="img-circle" src="/img/you.png">
+            	<span class="first">Richard Muragijimana</span><br>
+            	<span class="second">Strim(5)</span>
+            	<span class="">record(5)</span>
+            </div>
+            <div class="active">
+            	<img class="img-circle" src="/img/team-1.jpg">
+            	<span class="first">Fold arnold mwumvaneza</span><br>
+            	<span class="second">Strim(15)</span>
+            	<span class="">record(3)</span>
+            </div>
+        </div>
+        <div class="chat-wrapper">
+        	chat here
+        </div>
+        <div class="publications">
+        	<div class="service-img">
+        		<img src="/img/s4.png">
+        		<span>StrimUp mix</span>
+        	</div>
+        	<div class="service-img">
+        		<img src="/img/s4.png">
+        		<span>StrimUp bizz</span>
+        	</div>
+        	<div class="service-img">
+        		<img src="/img/s4.png">
+        		<span>StrimUp learn</span>
+        	</div>
+        	<div class="newUpdates">
+        		<span style="color:#fff;">here</span>
+        	</div>
+        	<div class="newUpdates">
+        		<span style="color:#fff;">here</span>
+        	</div>
+        	<div class="buttons">
+        		<button class="btn btn-primary">See Updates</button>
+        	</div>
+        </div>
+    </div>
 @endsection

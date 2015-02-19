@@ -1,4 +1,4 @@
-<?php namespace App\Exceptions;
+<?php namespace StrimUp\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
@@ -35,7 +35,7 @@ class Handler extends ExceptionHandler {
 	 */
 	//public function render($request, Exception $e)
 	//{
-	//	return parent::render($request, $e);
+		//return parent::render($request, $e);
 	//}
 //function to trigger and give custom error on page not found error
 	public function render($request, Exception $e){

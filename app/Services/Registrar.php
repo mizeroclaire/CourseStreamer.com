@@ -1,6 +1,6 @@
-<?php namespace App\Services;
+<?php namespace StrimUp\Services;
 
-use App\User;
+use StrimUp\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 

@@ -1,7 +1,9 @@
-<?php namespace App\Http\Controllers;
+<?php 
 
+namespace StrimUp\Http\Controllers;
+use StrimUp\Tutorial;
+use DB;
 class TutorialController extends Controller {
-
 	/**
 	 * POST /tutorials
 	 * Create a new tutorial
@@ -9,7 +11,13 @@ class TutorialController extends Controller {
 	 */
 	public function __construct()
 	{
-		$this->middleware('auth');
+		//make sure that a user is logged in to view the content
+		//$this->middleware('auth');
+	}
+	public function index()
+	{
+		$tutorials	= Tutorial::all();
+		return view('coaching.learn')->with('tutorials',$tutorials);
 	}
 	public function create()
 	{
@@ -24,7 +32,6 @@ class TutorialController extends Controller {
 	{
 		 
 	}
-
 	/**
 	 * DELETE /tutorials/{id}
 	 * Return all tutorials in storage

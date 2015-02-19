@@ -13,6 +13,7 @@
 
 Route::get('/', 'WelcomeController@index');
 
+Route::get('in/vids', 'TutorialController@index');
 Route::get('home', 'HomeController@index');
 
 Route::get('settings', 'HomeController@settings');

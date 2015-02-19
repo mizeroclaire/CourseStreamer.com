@@ -1,4 +1,4 @@
-<?php namespace App\Commands;
+<?php namespace StrimUp\Commands;
 
 abstract class Command {
 
