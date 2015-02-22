@@ -16,7 +16,7 @@ class TutorialController extends Controller {
 	}
 	public function index()
 	{
-		$tutorials	= Tutorial::all();
+		return $allUsers = Tutorial::paginate(1);
 		return view('coaching.learn')->with('tutorials',$tutorials);
 	}
 	public function create()

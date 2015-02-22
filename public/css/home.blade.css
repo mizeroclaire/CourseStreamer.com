@@ -1,116 +1,60 @@
-/*.default{
-	width: 100%;
-	background: #2980b9;
-	margin-top: -20px;
-	height: 50px;
+body{
 	font-family: Verdana, Arial, Sans-Serif;
 }
-footer{
-	text-align: center;
-	margin-top: 40px;
+textarea{
+	border: 1px solid #00baff;
 }
-a{
-	color: #ccc;
-}
-.first{
-	border-bottom: 5px solid red;
-	height: 30px;
-	width: 140px;
-	margin-top: -30px;
-	font-family: Verdana, Arial, Sans-Serif;
-}
-.second{
-	border-bottom: 5px solid #f1c40f;
-	height: 30px;
-	width: 100px;
-	margin-left: 100px;
-	margin-top: -30px;
-	font-family: Verdana, Arial, Sans-Serif;
-}
-.third{
-	border-bottom: 5px solid #d35400;
-	height: 30px;
-	width: 100px;
-	margin-left: 200px;
-	margin-top: -30px;
-	font-family: Verdana, Arial, Sans-Serif;
-}
-.content{
-	background: #fff;
-	color: #fff;
-	margin-top: 40px;
-	min-height: 540px;
-	height: 100%;
-}
-.fontbutton{
-	font-family: Verdana, Arial, Sans-Serif;
-}
-#position{
-	margin-top:50px;
-}
-.position{
-	margin-left: 495px;
-}*/
 
 .friends{
     font-family: Verdana, Arial, Sans-Serif;
-	background: #00baff;
+	background: #e0fcfc;
 	height: 650px;
-    color: #fff;
+    color: #000;
     float: left;
     width: 310px;
+    border-radius: 3px;
+}
+.current-user{
+	min-height: 150px;
+	background: #fffefe;
+}
+ .search span{
+	opacity: 0.5;
 }
 .friends img{
 	height: 80px;
 	width: 70px;
 }
-.acitve  .first{
+.chat-and-services{
+	width: 100%;
+}
+.chat-and-services button span{
+	color: red;
+}
+.chat-and-services button{
 
+	float: right;
+	height: 80px;
+	border-radius: 8em;
+	width: 70px;
 }
- .active .second{
-	margin-left: 85px;
-
-}
-.chat-wrapper{
-	font-family: Verdana, Arial, Sans-Serif;
-	float: left;
-	background: #fcfcfc;
-	min-height: 650px;
-	width: 630px;
-}
-.publications{
-	 font-family: Verdana, Arial, Sans-Serif;
-	float: left;
-	background: #fff;/*keept white just to avoid free space left on right side*/
-	min-height: 650px;
-	width: 15.7%;
-	color: #fff;
-}
-.publications span{
-	color: #000;
-}
-.service-img img{
-	width: 40px;
-	border: 2px solid#fff;
-	border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-o-border-radius: 50%;
-	-moz-border-radius: 50%;
-	padding: 3px 3px;
-	cursor: pointer;
-}
-.service-img :hover{
-	border: 2px dashed#fa6f5d;
-}
-.newUpdates{
-	min-height: 250px;
+.chat-for-business-education{
 	background: #fff;
-	border-bottom:3px solid #fff;
+	
+	margin-top: 140px;
 }
-.buttons{
-	min-height: 60px;
-	margin-left: 45px;
-	background: #fff;
-	border-bottom:3px solid #fff;
+.single-chat p,.first{
+	background: #e0fcfc;
+	width: 30%;
+	
+	margin-left: 445px;
 }
-
+.single-chat .second{
+	background: #e0fcfc;
+	width: 30%;
+	margin-top: 20px;
+	margin-left: 535px;
+}
+.chat-textarea textarea{
+	width: 60%;
+}
