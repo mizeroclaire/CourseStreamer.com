@@ -4,57 +4,118 @@ body{
 textarea{
 	border: 1px solid #00baff;
 }
+li{
+	list-style-type: none;
+}
+.settings{
+	height: 650px;
+	color: #2B587A;
+	min-width: 33.33%;
 
+}
+.top-service-indicator{
+	margin-left: 0px;
+}
+.top-service-indicator button{
+	background: #00a7ff;
+	height: 40px;
+	width: 127.3px;
+	color: #fff;
+}
+.progress{
+	text-align: center;
+}
+.top-service-indicator li{
+	display: inline;
+	margin: 0;
+}
+.profile {
+	background-image: url(/img/camera_200.gif);
+	background-repeat: no-repeat; background-position: left top; padding-top:188px; margin-bottom:50px; 
+}
+.profile p{
+	margin-top: -20px;
+}
+.setting-options{
+	
+	margin-left: 120px;
+}
+.settings li span{
+	opacity: 0.5;
+	list-style-type: none;
+}
+.setting-options li span{
+	margin-left: 5px;
+	list-style-type: none;
+}
 .friends{
     font-family: Verdana, Arial, Sans-Serif;
 	background: #e0fcfc;
 	height: 650px;
     color: #000;
-    float: left;
-    width: 310px;
+    min-width: 30%;
     border-radius: 3px;
 }
-.current-user{
+.status{
+	color: #2B587A;
+}
+.friends .img{
+	height: 40px;
+	width: 20px;
+}
+.friends span{
+	color: #2B587A;
+}
+ .main-action{
 	min-height: 150px;
-	background: #fffefe;
-}
- .search span{
-	opacity: 0.5;
-}
-.friends img{
-	height: 80px;
-	width: 70px;
-}
-.chat-and-services{
-	width: 100%;
-}
-.chat-and-services button span{
-	color: red;
-}
-.chat-and-services button{
 
-	float: right;
-	height: 80px;
-	border-radius: 8em;
-	width: 70px;
 }
-.chat-for-business-education{
-	background: #fff;
+.mates-list{
+	min-height: 320px;
+	background: #00baff;
+	width: 100%;
+	margin-left: 2px;
+}
+.other-activites{
+	min-height: 150px;
 	
-	margin-top: 140px;
+	width: 100%;
+	margin-left: 2px;
+}
+.search{
+	width: 100%;
+	min-height: 150px;
+	
+	margin-left: 2px;
+}
+.search p,input{
+    color: #13afe8;
+    text-align: center;
+}
+.search img{
+    height: 80px;
+}
+.chat-area{
+	min-width: 35%;
+	
+	height: 650px;
 }
 .single-chat p,.first{
 	background: #e0fcfc;
-	width: 30%;
+	width: 85%;
 	
-	margin-left: 445px;
+	margin-left: 45px;
 }
 .single-chat .second{
 	background: #e0fcfc;
-	width: 30%;
+	width: 85%;
 	margin-top: 20px;
-	margin-left: 535px;
+	margin-left: 105px;
 }
 .chat-textarea textarea{
-	width: 60%;
+	width: 100%;
 }
+.chat-section{
+	min-height: 598px;
+}
+
