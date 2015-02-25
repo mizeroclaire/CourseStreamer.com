@@ -7,9 +7,11 @@
 	<title>StrimUp.com</title>
 
 	<link href="/css/app.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css">
 	<link href="/css/home.blade.css" rel="stylesheet">
 	<!-- Fonts -->
-	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+	<!--<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>-->
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,8 +20,8 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 </head>
-<body>
-	<nav class="navbar navbar-default">
+<body id="main">
+	<nav class="navbar navbar-default container">
 		<div class="container-fluid" >
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -27,10 +29,10 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Home</a>
 				<a class="navbar-brand" href="#">StrimUp mix</a>
-				<a class="navbar-brand" href="#">StrimUp bizz</a>
-				<a class="navbar-brand" href="#">StrimUp edu</a>
+				<a class="navbar-brand" href="#">Business</a>
+				<a class="navbar-brand" href="#">Education</a>
+				<a class="navbar-brand" href="#">Notifications(200)</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
 				<ul class="nav navbar-nav">
@@ -56,7 +58,12 @@
 	</nav>
 	@yield('content')
 	<!-- Scripts -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<!--<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>-->
+	<script  src="/js/ajax.js"></script>
+	<script src="/js/youtube/bootstrap.youtubepopup.js"></script>
+	<script src="/js/youtube/bootstrap.youtubepopup.min.js"></script>
+	<script  src="/js/message/message.poster.js"></script>
+	<script src="/js/jquery-1.10.2.js"></script>
 </body>
 </html>

@@ -7,11 +7,18 @@ textarea{
 li{
 	list-style-type: none;
 }
+video{
+	width: 450px;
+	height: 280px;
+}
+#main a{
+ color: #fff;
+}
 .settings{
 	height: 650px;
 	color: #2B587A;
-	min-width: 33.33%;
-
+	margin-left: -100px;
+	min-width: 33%;
 }
 .top-service-indicator{
 	margin-left: 0px;
@@ -24,6 +31,7 @@ li{
 }
 .progress{
 	text-align: center;
+	width: 200px;
 }
 .top-service-indicator li{
 	display: inline;
@@ -32,9 +40,10 @@ li{
 .profile {
 	background-image: url(/img/camera_200.gif);
 	background-repeat: no-repeat; background-position: left top; padding-top:188px; margin-bottom:50px; 
-}
+}	
 .profile p{
 	margin-top: -20px;
+
 }
 .setting-options{
 	
@@ -45,8 +54,12 @@ li{
 	list-style-type: none;
 }
 .setting-options li span{
-	margin-left: 5px;
+	margin-left: 0px;
 	list-style-type: none;
+}
+.setting-options li{
+	margin: 0;
+	display: block;
 }
 .friends{
     font-family: Verdana, Arial, Sans-Serif;
@@ -78,17 +91,14 @@ li{
 }
 .other-activites{
 	min-height: 150px;
-	
-	width: 100%;
 	margin-left: 2px;
 }
 .search{
 	width: 100%;
 	min-height: 150px;
-	
 	margin-left: 2px;
 }
-.search p,input{
+.search p{
     color: #13afe8;
     text-align: center;
 }
@@ -96,26 +106,37 @@ li{
     height: 80px;
 }
 .chat-area{
-	min-width: 35%;
-	
 	height: 650px;
+	border-right: 4px solid #fff;
 }
 .single-chat p,.first{
 	background: #e0fcfc;
-	width: 85%;
-	
 	margin-left: 45px;
 }
 .single-chat .second{
 	background: #e0fcfc;
-	width: 85%;
 	margin-top: 20px;
 	margin-left: 105px;
 }
 .chat-textarea textarea{
+	margin-top: 47px;
 	width: 100%;
 }
-.chat-section{
-	min-height: 598px;
+.navbar{
+	border-radius: 0px;
+    background: #00a7ff;  
+}
+.modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
 }
 
+/* irrelevant styling */
+body { text-align: center; }
+body p { 
+  max-width: 400px; 
+  margin: 20px auto; 
+}
+#tallModal .modal-body p { margin-bottom: 900px }

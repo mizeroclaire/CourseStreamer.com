@@ -1,7 +1,11 @@
 @extends('app')
 
 @section('content')
-  <div class="col-md-1 settings">
+<div class="row col-lg-12" style="width:100%;">
+  <div class="visible-phone" style="background:#00baff;">
+      <img class="img-circle" style="width:60px;height:70px;" src="/img/team-3.jpg">
+  </div>
+  <div class="row col-md-1 settings visible-desktop" style="margin-left:0px;">
     <div class="row setting-options">
         <div class="profile">
             <p>Upload your profile picture </p>
@@ -9,44 +13,53 @@
         <p>Edit profile</p>
         <p class="setting progress">10%</p>
         <li><span class="glyphicon glyphicon-exclamation-sign"></span>My portifolo</li>
-        <li><span class="glyphicon glyphicon-user"></span>My mates</li>
-        <li><span class="glyphicon glyphicon-paperclip"></span>My links</li>
-        <li><span class="glyphicon glyphicon-user"></span>My tutorials</li>
-        <li><span class="glyphicon glyphicon-user"></span>My music</li>
+        <li><span class="glyphicon glyphicon-user"></span>My mates&nbsp;&nbsp;&nbsp;</li>
+        <li><span class="glyphicon glyphicon-link"></span>My links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><span class="glyphicon glyphicon-star"></span>My Community</li>
+        <li><span class="glyphicon glyphicon-comment"></span>Write thinking post</li>
         <div class="row top-service-indicator">
-          <button class="btn btn form-control">Jump to class</button>
+          <button class="jump-class btn btn form-control" id="4eYSpIz2FjU" >Jump to...</button>
         </div>
     </div>
   </div>
-  <div class="col-md-1 chat-area chat-textarea single-chat">
+  <div class="col-md-5 chat-area chat-textarea single-chat">
+    <div class="row" style="background:#00baff;min-height:280px;color:#fff;">
+      Lesson preview here
+      
+      <video width="1220" height="240" controls>
+        <source src="/video/Tutorial NodeJS Part 2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
     <div class="chat-section">
-        <p >Hi dude can you please tell me where i can learn php please tell me a good lecture</p>
-        <p class="second">Hi dude can you please tell me where i can learn php please tell me a good lecture</p>
+      
          <p >Hi dude can you please tell me where i can learn php please tell me a good lecture</p>
         <p class="second">Hi dude can you please tell me where i can learn php please tell me a good lecture</p>
          <p >Hi dude can you please tell me where i can learn php please tell me a good lecture</p>
         <p class="second">Hi dude can you please tell me where i can learn php please tell me a good lecture</p>
-         <p >Hi dude can you please tell me where i can learn php please tell me a good lecture</p>
-        <p class="second">Hi dude can you please tell me where i can learn php please tell me a good lecture</p>
-         <p >Hi dude can you please tell me where i can learn php please tell me a good lecture</p>
-        <p class="second">Hi dude can you please tell me where i can learn php please tell me a good lecture</p>
+         
     </div>
-    <textarea></textarea>
+    <form id="chat">
+      <input id="userId" value="40" type="hidden"><!--this will be given by Laravel by first application load-->
+      <input id="receiverId" value="140" type="hidden">
+      <textarea></textarea>
+      
+    </form>
   </div>
-  <div class="row">
-  <div class="col-md-1 friends">
-    <div class="row main-action">
-        <img style="width:80px;margin-left:35px;" class="img-square"  src="/img/team-1.jpg"><span>Current chat</span>
-    </div>
-    <div class="row search">
-        <p class="">Search here...</p>
-        <span><input class="form-control" type="text" placeholder="Search mates,job and more.."></span>
-        <p>....<img src="/img/loading.gif"></p>
-    </div><br>
-    <div class="row mates-list">
-        here
-    </div>
+  <div class="col-md-2 visible-desktop" style=";width:22.3%;min-height:650px;">    
+     <div class="row" style="background:#fff;min-height:180px;">
+        <img style="width:60px;height:70px;" class="img-circle" src="/img/team-4.jpg">
+     </div> 
+     <div class="row" style="background:#00baff;min-height:180px;border-bottom:8px solid #fff;">
+        <p align="center" style="color:#fff;">Featured lessons</p>
+     </div> 
+     <div class="row" style="background:#00baff;min-height:180px;border-bottom:8px solid #fff;">
+        <p align="center" style="color:#fff;">  Business you follow</p> 
+     </div> 
+     <div class="row" style="background:#00baff;min-height:99.9px;">
+     
+        <p align="center" style="color:#fff;">Mates's tags</p> 
+     </div> 
   </div>
-  
 </div>
 @endsection
