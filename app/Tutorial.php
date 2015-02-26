@@ -4,4 +4,5 @@
 class Tutorial extends Model {
 	
 	protected $table = 'tutorials';
+	
 }

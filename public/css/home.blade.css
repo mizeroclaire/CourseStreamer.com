@@ -49,7 +49,10 @@ video{
 	
 	margin-left: 120px;
 }
-.settings li span{
+a{
+		color: #2B587A;
+}
+.settings li span a{
 	opacity: 0.5;
 	list-style-type: none;
 }

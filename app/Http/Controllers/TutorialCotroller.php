@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use StrimUp\Tutorial;
 
 class TutorialCotroller extends Controller {
 
@@ -15,8 +16,8 @@ class TutorialCotroller extends Controller {
 	public function index()
 	{
 		//
-	}
 
+	}
 	/**
 	 * Show the form for creating a new resource.
 	 *

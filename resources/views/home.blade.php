@@ -12,25 +12,28 @@
         </div>
         <p>Edit profile</p>
         <p class="setting progress">10%</p>
-        <li><span class="glyphicon glyphicon-exclamation-sign"></span>My portifolo</li>
-        <li><span class="glyphicon glyphicon-user"></span>My mates&nbsp;&nbsp;&nbsp;</li>
-        <li><span class="glyphicon glyphicon-link"></span>My links&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-        <li><span class="glyphicon glyphicon-star"></span>My Community</li>
+        <li><span class="glyphicon glyphicon-exclamation-sign"></span><a style="color:#2B587A;" href="#">My portifolo</a></li>
+        <li><span class="glyphicon glyphicon-user"></span><a style="color:#2B587A;" href="#">My mates</a>&nbsp;&nbsp;&nbsp;</li>
+        <li><span class="glyphicon glyphicon-link"></span><a style="color:#2B587A;" href="#">My links</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><span class="glyphicon glyphicon-star"></span><a style="color:#2B587A;" href="#">My Community</a></li>
         <li><span class="glyphicon glyphicon-comment"></span>Write thinking post</li>
         <div class="row top-service-indicator">
           <button class="jump-class btn btn form-control" id="4eYSpIz2FjU" >Jump to...</button>
         </div>
     </div>
   </div>
-  <div class="col-md-5 chat-area chat-textarea single-chat">
-    <div class="row" style="background:#00baff;min-height:280px;color:#fff;">
-      Lesson preview here
+  @foreach($tutorials as $tut)
       
-      <video width="1220" height="240" controls>
-        <source src="/video/Tutorial NodeJS Part 2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
+    <div class="col-md-5 chat-area chat-textarea single-chat">
+      <div class="row" style="background:#00baff;min-height:280px;color:#fff;">
+        Lesson preview here
+        
+        <video width="1220" height="240" controls>
+          <source src="/video/{{$tut->tutorial_url}}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    @endforeach
     <div class="chat-section">
       
          <p >Hi dude can you please tell me where i can learn php please tell me a good lecture</p>
