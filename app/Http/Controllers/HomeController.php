@@ -38,6 +38,9 @@ class HomeController extends Controller {
 	{
 		return view('settings');
 	}
+	public function pageSwitch(){
+		return view('pageSwitcher');
+	}
 	public function privacy()
 	{
 		return view('privacy');

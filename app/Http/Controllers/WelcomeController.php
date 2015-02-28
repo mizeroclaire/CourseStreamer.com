@@ -1,5 +1,5 @@
 <?php namespace StrimUp\Http\Controllers;
-
+use  Mail;
 class WelcomeController extends Controller {
 
 	/*
@@ -30,7 +30,10 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		
+
+		Mail::send('emails.StrimUp.test', array('name'=>'shyaka13'), function($message){
+			$message ->to('shyaka13@gmail.com','richard Mr')->subject('StrimUp launch');
+		});
 		return view('welcome');
 	}
 
