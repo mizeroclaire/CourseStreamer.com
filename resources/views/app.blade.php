@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8" >
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>StrimUp.com</title>
-
+	<meta charset='utf-8'>
 	<link href="/css/app.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css">
 	<link href="/css/home.blade.css" rel="stylesheet">
+
 	<!-- Fonts -->
 	<!--<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>-->
 
@@ -18,7 +19,7 @@
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
+	<![endif]--> 
 </head>
 <body id="main">
 	<nav class="navbar navbar-default container">
@@ -60,10 +61,10 @@
 	<!-- Scripts -->
 	<!--<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>-->
-	<script  src="/js/ajax.js"></script>
-	<script src="/js/youtube/bootstrap.youtubepopup.js"></script>
-	<script src="/js/youtube/bootstrap.youtubepopup.min.js"></script>
-	<script  src="/js/message/message.poster.js"></script>
-	<script src="/js/jquery-1.10.2.js"></script>
+	<script src="/js/popup/angular.js"></script>
+	<script src="/js/popup/angular-route.js"></script>
+	
+    <script src="/js/popup/angular-ui-bootstrap-modal.js"></script>
+    <script src="/js/popup/app.js"></script>
 </body>
 </html>

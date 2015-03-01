@@ -1,6 +1,4 @@
-@extends('app')
-
-@section('content')
+<?php  require '/app.blade.php'; ?>
 <div class="row col-lg-12" style="width:100%;">
   <div class="visible-phone" style="background:#00baff;">
       <img class="img-circle" style="width:60px;height:70px;" src="/img/team-3.jpg">
@@ -12,32 +10,32 @@
         </div>
         <p>Edit profile</p>
         <p class="setting progress">10%</p>
-        <div class="col-md-8" ng-app="StrimUp">
+        <div class="col-md-8">
             <li><span class="glyphicon glyphicon-exclamation-sign"></span><a style="color:#2B587A;" href="#">My portifolo</a></li>
             <li><span class="glyphicon glyphicon-user"></span><a style="color:#2B587A;" href="#">My mates</a>&nbsp;&nbsp;&nbsp;</li>
             <li><span class="glyphicon glyphicon-link"></span><a style="color:#2B587A;" href="#">My links</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
             <li><span class="glyphicon glyphicon-star"></span><a style="color:#2B587A;" href="#">Community</a></li>
             <li><span class="glyphicon glyphicon-comment"></span>thinking post</li>
-            <div class="row top-service-indicator"  ng-controller="MyCtrl">
+            <div class="row top-service-indicator" ng-app="MyApp" ng-controller="MyCtrl">
               <a  ng-click="open()" href="#"><button class="jump-class btn btn form-control" id="4eYSpIz2FjU" >Jump to...</button></a>
               <!--
                 this below are model to show after
               -->
+
                 <div modal="showModal" close="cancel()">
                   <div class="modal-header">
                       <h4>Modal Dialog</h4>
                   </div>
                   <div class="modal-body">
                       <div style="background:#fff;color:#000;height:450px;width:800px;margin-left:185px;">
-                        <div class="col-md-8" id="choice-model" ng-controller="mainController">
-                          <li><a style="color:#000" href="#">Mates</a></li>
+                        <div class="col-md-8" id="choice-model">
+                          
+                          <li><a style="color:#000" href="#mates">Mates</a></li>
                           <li><a style="color:#000" href="#mates">Tutorials</a></li>
                           <li><a style="color:#000" href="#mates">Community</a></li>
                         </div>
                         <div  style="width:100%;">
-                            <div class="col-md-7 pull-left" style="background:blue;margin-left:10px;height:420px;">first
-                              <div ng-view></div>
-                            </div>
+                            <div class="col-md-7 pull-left" style="background:blue;margin-left:10px;height:420px;">first</div>
                             <div class="col-md-4 pull-left" style="background:gray;margin-left:10px;height:420px;">second</div>
                         </div>
                       </div>
@@ -67,8 +65,9 @@
           Your browser does not support the video tag.
         </video>-->
       </div>
-      <div class="row" style="background:#00baff;min-height:280px;color:#fff;border-bottom:4px solid #fff;">
+      <div  class="row" style="background:#00baff;min-height:280px;color:#fff;border-bottom:4px solid #fff;">
         My portifolio
+        
         
         <!--<video width="1220" height="240" controls>
           <source src="/video/{{$tut->tutorial_url}}" type="video/mp4">
