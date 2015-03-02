@@ -1,6 +1,7 @@
 <?php namespace StrimUp\Http\Controllers;
 
 use StrimUp\Tutorial;
+use StrimUp\User;
 class HomeController extends Controller {
 
 	/*
@@ -33,6 +34,9 @@ class HomeController extends Controller {
 	{
 		$tutorials=Tutorial::paginate();
 		return view('home')->with('tutorials',$tutorials);
+	}
+	public function getUser(){
+		return User::all();
 	}
 	public function settings()
 	{

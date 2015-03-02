@@ -4,12 +4,27 @@ body{
 textarea{
 	border: 1px solid #00baff;
 }
+video{
+	width: 100%;
+}
 li{
 	list-style-type: none;
 }
 video{
-	width: 450px;
-	height: 280px;
+	width: 550px;
+	height: 320px;
+}
+div#video_control{
+	background: white;padding: 10px;
+	height: 80px;
+}
+div#videoPlayerBox{
+	width: 550px;
+	height: 320px;
+	background: white;
+}
+div#video_control button{
+	margin-left: -200px;
 }
 #main a{
  color: #fff;

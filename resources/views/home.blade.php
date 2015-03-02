@@ -8,7 +8,7 @@
   <div class="row col-md-1 settings visible-desktop" style="margin-left:0px;">
     <div class="row setting-options">
         <div class="profile">
-            <p>Upload your profile picture </p>
+            <p>Upload your profile picture</p>
         </div>
         <p>Edit profile</p>
         <p class="setting progress">10%</p>
@@ -18,11 +18,12 @@
             <li><span class="glyphicon glyphicon-link"></span><a style="color:#2B587A;" href="#">My links</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
             <li><span class="glyphicon glyphicon-star"></span><a style="color:#2B587A;" href="#">Community</a></li>
             <li><span class="glyphicon glyphicon-comment"></span>thinking post</li>
-            <div class="row top-service-indicator"  ng-controller="MyCtrl">
+            <div class="row top-service-indicator"  ng-controller="ModalCtrl">
               <a  ng-click="open()" href="#"><button class="jump-class btn btn form-control" id="4eYSpIz2FjU" >Jump to...</button></a>
               <!--
                 this below are model to show after
               -->
+              
                 <div modal="showModal" close="cancel()">
                   <div class="modal-header">
                       <h4>Modal Dialog</h4>
@@ -30,15 +31,18 @@
                   <div class="modal-body">
                       <div style="background:#fff;color:#000;height:450px;width:800px;margin-left:185px;">
                         <div class="col-md-8" id="choice-model" ng-controller="mainController">
-                          <li><a style="color:#000" href="#">Mates</a></li>
-                          <li><a style="color:#000" href="#mates">Tutorials</a></li>
-                          <li><a style="color:#000" href="#mates">Community</a></li>
+                          <!--this is to control pages to be shown on a modal-->
+                          <li><a style="color:#000" href="#index">Notice</a></li>
+                          <li><a style="color:#000" href="#learn">Tutorials</a></li>
+                          <li><a style="color:#000" href="#Community">Community</a></li>
+
                         </div>
                         <div  style="width:100%;">
-                            <div class="col-md-7 pull-left" style="background:blue;margin-left:10px;height:420px;">first
-                              <div ng-view></div>
+                            <div class="col-md-7 pull-left" style="margin-left:10px;height:420px;">
+                              <!--show and render page into ng-previe-->
+                              <div ng-view style="color:#000;"></div>
                             </div>
-                            <div class="col-md-4 pull-left" style="background:gray;margin-left:10px;height:420px;">second</div>
+                            <div ng-controller="Reactor" class="col-md-4 pull-left" style="margin-left:10px;height:420px;">hello&nbsp;{name|uppercase}</div>
                         </div>
                       </div>
 
@@ -51,7 +55,7 @@
                     <button class="btn btn-success" ng-click="ok()">Okay</button>
                     <button class="btn btn-danger" ng-click="cancel()">Quit</button>
                   </div>
-                </div>
+                </div><!--end of modal preview-->
             </div>
         </div>
     </div>

@@ -16,6 +16,7 @@ Route::get('in/vids', 'TutorialController@index');
 Route::get('home', 'HomeController@index');
 Route::get('in/choice','HomeController@pageSwitch');
 Route::get('settings', 'HomeController@settings');
+Route::get("user",'HomeController@getUser');
 
 Route::get('privacy', 'HomeController@privacy');
 
