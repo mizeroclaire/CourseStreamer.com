@@ -20,11 +20,9 @@ class HomeController extends Controller {
 	 *
 	 * @return void
 	 */
-	public function __construct()
-	{
+	public function __construct(){
 		$this->middleware('auth');
 	}
-
 	/**
 	 * Show the application dashboard to the user.
 	 *
@@ -36,25 +34,26 @@ class HomeController extends Controller {
 		return view('home')->with('tutorials',$tutorials);
 	}
 	public function getUser(){
-		return User::all();
+
+		 return $users= User::all();
+
+
+		 
+
 	}
-	public function settings()
-	{
+	public function settings(){
 		return view('settings');
 	}
 	public function pageSwitch(){
 		return view('pageSwitcher');
 	}
-	public function privacy()
-	{
+	public function privacy(){
 		return view('privacy');
 	}
-	public function error()
-	{
+	public function error(){
 		return view('503');
 	}
-	public function play()
-	{
+	public function play(){
 		return view('play-ground')->with('message','hello you are watching fews video please upgrade to premium to see more!');
 	}
 
