@@ -2,7 +2,7 @@
 Options All -Indexes
 
 ## ERROR 404 Handler ##
-ErrorDocument 404 http://localhost/new-crst/404.html
+# ErrorDocument 404 http://localhost/new-crst/404.html
 
 
  

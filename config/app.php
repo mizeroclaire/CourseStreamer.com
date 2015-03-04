@@ -145,6 +145,8 @@ return [
 		'StrimUp\Providers\EventServiceProvider',
 		'StrimUp\Providers\RouteServiceProvider',
 
+		"Laracasts\Generators\GeneratorsServiceProvider",
+
 	],
 
 	/*
