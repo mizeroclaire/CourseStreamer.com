@@ -2,6 +2,8 @@
 /*
 |--------------------------------------------------------------------------
 | Application Routes
+| 
+| Here, you can get a bird's eye view of the app structure and api.
 |--------------------------------------------------------------------------
 */
 
@@ -22,5 +24,3 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
-
-
