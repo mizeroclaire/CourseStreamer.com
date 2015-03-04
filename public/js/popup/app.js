@@ -1,5 +1,7 @@
 
 var StrimUp = angular.module("StrimUp", ["ui.bootstrap.modal","ngRoute"],function($interpolateProvider) {
+
+    //to avoid blade confusion chage the angular templating to use this syntax {}
         $interpolateProvider.startSymbol('{');
         $interpolateProvider.endSymbol('}');
     });
@@ -53,11 +55,10 @@ StrimUp.config(function($routeProvider,$locationProvider) {
 });
 
 StrimUp.controller("Reactor",function($scope,$http){
-    $http.get("/user").success(function(data){
-        $scope.name=data.name;
-        
-    });
 
+    $http.get('/user/1').success(function(data){
+        $scope.data=data;
+    });
 });
 
  

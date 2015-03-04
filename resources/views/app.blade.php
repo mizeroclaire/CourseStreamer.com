@@ -7,9 +7,10 @@
 	<title>StrimUp.com</title>
 	<meta charset='utf-8'>
 	<link href="/css/app.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css">
-	<link href="/css/home.blade.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
+
+    <link rel="stylesheet" href="{{asset('css/bootstrap-responsive.css')}}">
+	<link href="{{asset('css/home.blade.css')}}" rel="stylesheet">
 
 	<!-- Fonts -->
 	<!--<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>-->
@@ -61,11 +62,11 @@
 	<!-- Scripts -->
 	<!--<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>-->
-	<script src="/js/popup/angular.min.js"></script>
-	<script src="/js/popup/angular-route.min.js"></script>
+	<script src="{{asset('js/popup/angular.min.js')}}"></script>
+	<script src="{{asset('js/popup/angular-route.min.js')}}"></script>
 	
-    <script src="/js/popup/angular-ui-bootstrap-modal.js"></script>
-    <script src="/js/popup/app.js"></script>
-    <script src="/js/popup/videoController.js"></script>
+    <script src="{{asset('js/popup/angular-ui-bootstrap-modal.js')}}"></script>
+    <script src="{{asset('js/popup/app.js')}}"></script>
+    <script src="{{asset('js/popup/videoController.js')}}"></script>
 </body>
 </html>

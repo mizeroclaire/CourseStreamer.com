@@ -3,7 +3,7 @@
 @section('content')
 <div class="row col-lg-12" style="width:100%;">
   <div class="visible-phone" style="background:#00baff;">
-      <img class="img-circle" style="width:60px;height:70px;" src="/img/team-3.jpg">
+      <img class="img-circle" style="width:60px;height:70px;" src="{{asset('img/team-3.jpg')}}">
   </div>
   <div class="row col-md-1 settings visible-desktop" style="margin-left:0px;">
     <div class="row setting-options">
@@ -39,10 +39,10 @@
                         </div>
                         <div  style="width:100%;">
                             <div class="col-md-7 pull-left" style="margin-left:10px;height:420px;">
-                              <!--show and render page into ng-previe-->
+                              <!--show and render page into ng-preview-->
                               <div ng-view style="color:#000;"></div>
                             </div>
-                            <div ng-controller="Reactor" class="col-md-4 pull-left" style="margin-left:10px;height:420px;">hello&nbsp;{name|uppercase}</div>
+                            <div ng-controller="Reactor" class="col-md-4 pull-left" style="margin-left:10px;height:420px;">hello&nbsp;{data.name}</div>
                         </div>
                       </div>
 
@@ -72,8 +72,7 @@
         </video>-->
       </div>
       <div class="row" style="background:#00baff;min-height:280px;color:#fff;border-bottom:4px solid #fff;">
-        My portifolio
-        
+        My portifolioss
         <!--<video width="1220" height="240" controls>
           <source src="/video/{{$tut->tutorial_url}}" type="video/mp4">
           Your browser does not support the video tag.

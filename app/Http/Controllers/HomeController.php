@@ -1,5 +1,6 @@
 <?php namespace StrimUp\Http\Controllers;
 
+use Illuminate\Support\Facades\URL;
 use StrimUp\Tutorial;
 use StrimUp\User;
 class HomeController extends Controller {
@@ -33,13 +34,9 @@ class HomeController extends Controller {
 		$tutorials=Tutorial::paginate();
 		return view('home')->with('tutorials',$tutorials);
 	}
-	public function getUser(){
+	public function getUser($id){
 
-		 return $users= User::all();
-
-
-		 
-
+        return  User::find($id)->toJson();
 	}
 	public function settings(){
 		return view('settings');
