@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c045bb47-b871-4f58-b56b-f57179bb7c58" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/popup/app.js" afterPath="$PROJECT_DIR$/public/js/popup/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CourseStreamer.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +56,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/popup/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5173553" vertical-offset="0" max-vertical-offset="1190">
-              <caret line="54" column="3" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.78347105" vertical-offset="580" max-vertical-offset="1292">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -509,8 +510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/popup/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5173553" vertical-offset="0" max-vertical-offset="1190">
-          <caret line="54" column="3" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.78347105" vertical-offset="580" max-vertical-offset="1292">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>

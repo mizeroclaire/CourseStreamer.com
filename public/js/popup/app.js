@@ -55,6 +55,12 @@ StrimUp.config(function($routeProvider,$locationProvider) {
 });
 StrimUp.controller("Reactor",function($scope,$http){
 
+    $http.get("/user").success(function(user){
+      $scope.user=user;
+      $scope.name=Object(user);
+      
+    });
+
     $http.get('/user/1').success(function(data){
         $scope.data=data;
     });
