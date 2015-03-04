@@ -1,7 +1,7 @@
-<?php namespace StrimUp\Http\Controllers;
+<?php namespace StrimUp\Http\Controllers\Api;
 
 use StrimUp\Http\Requests;
-use StrimUp\Http\Controllers\Controller as Controller;
+use StrimUp\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
