@@ -53,7 +53,6 @@ StrimUp.config(function($routeProvider,$locationProvider) {
     StrimUp.controller('communityController', function($scope) {
         $scope.message = 'hello community! JK. This a message from CEO.';
 });
-
 StrimUp.controller("Reactor",function($scope,$http){
 
     $http.get('/user/1').success(function(data){
