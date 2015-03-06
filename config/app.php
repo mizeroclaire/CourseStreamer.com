@@ -146,6 +146,7 @@ return [
 		'StrimUp\Providers\RouteServiceProvider',
 
 		"Laracasts\Generators\GeneratorsServiceProvider",
+        'Alaouy\Youtube\YoutubeServiceProvider',
 
 	],
 

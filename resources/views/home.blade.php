@@ -63,12 +63,10 @@
       
     <div class="col-md-5 chat-area chat-textarea single-chat" style="margin-left:-40px;">
       <div class="row" style="background:#00baff;min-height:280px;color:#fff;border-bottom:4px solid #fff;">
-        Lesson preview here
-        
-        <!--<video width="1220" height="240" controls>
-          <source src="/video/" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>-->
+          <!--<iframe src="https://player.vimeo.com/video/120893601?portrait=0" width="560" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/120893601">Me &amp; You</a> from <a href="https://vimeo.com/jacktew">Jack Tew</a> on <a href="https://vimeo.com">Vimeo</a>.</p>-->
+          <!--<iframe width="560" height="428"
+                  src="http://www.youtube.com/embed/LGzYSHW9URo">
+          </iframe>-->
       </div>
       <div class="row" style="background:#;min-height:280px;color:#fff;border-bottom:4px solid #fff;">
         Muragijimana's Portifolio

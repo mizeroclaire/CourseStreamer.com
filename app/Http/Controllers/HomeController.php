@@ -35,6 +35,7 @@ class HomeController extends Controller {
 		return view('home')->with('tutorials',$tutorials);
 	}
 	public function getUser($id){
+        //tes t youtube api
 
         return  User::find($id)->toJson();
 	}
