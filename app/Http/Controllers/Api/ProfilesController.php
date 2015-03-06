@@ -5,7 +5,7 @@ use StrimUp\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class ProfilesController extends \Controller {
+class ProfilesController extends Controller {
 
 	/**
 	 * Display a listing of the resource.

@@ -46,6 +46,7 @@ div#video_control button{
 }
 .progress{
 	text-align: center;
+    margin-left: -6px;
 	width: 170px;
 }
 .top-service-indicator li{
@@ -56,9 +57,9 @@ div#video_control button{
 	background-image: url(/img/camera_200.gif);
 	background-repeat: no-repeat; background-position: left top; padding-top:188px; margin-bottom:50px; 
 }	
-.profile p{
-	margin-top: -20px;
-	margin-left: -20px;
+.profile button{
+	
+	margin-left: -103px;
 
 }
 .setting-options{

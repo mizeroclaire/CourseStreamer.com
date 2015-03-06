@@ -6,8 +6,6 @@
 | Here, you can get a bird's eye view of the app structure and api.
 |--------------------------------------------------------------------------
 */
-
-
 Route::get('/', 'WelcomeController@index');
 Route::get('in/vids', 'TutorialController@index');
 Route::get('home', 'HomeController@index');

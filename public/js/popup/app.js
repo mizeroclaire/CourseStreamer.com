@@ -1,10 +1,12 @@
 
 var StrimUp = angular.module("StrimUp", ["ui.bootstrap.modal","ngRoute"],function($interpolateProvider) {
-
     //to avoid blade confusion chage the angular templating to use this syntax {}
         $interpolateProvider.startSymbol('{');
         $interpolateProvider.endSymbol('}');
-    });
+})
+
+
+
 StrimUp.controller("ModalCtrl", function($scope) {
 
   $scope.open = function() {
@@ -47,22 +49,40 @@ StrimUp.config(function($routeProvider,$locationProvider) {
     });
 
     StrimUp.controller('aboutController', function($scope) {
-        $scope.message = 'yup application it is the way of getting all business done around in rwanda by only a single click and have enought information about it, you may also need to register your own business to be listed here';
+        $scope.message = ' be listed here';
     });
 
     StrimUp.controller('communityController', function($scope) {
         $scope.message = 'hello community! JK. This a message from CEO.';
 });
-StrimUp.controller("Reactor",function($scope,$http){
 
-    $http.get("/user").success(function(user){
-      $scope.user=user;
-      $scope.name=Object(user);
-      
-    });
+//-----------------------deal with user's actions and interaction with other users---------------//
+function returnMethod(){
+    return 'GET';
+}
+function returnUrl(){
+    return 'user';
+}
+function returnUserId(){
+    return '1';
+}
+function returnVideo(userId){
 
-    $http.get('/user/1').success(function(data){
-        $scope.data=data;
+}
+
+
+StrimUp.controller('Reactor',function($scope,$http){
+    $scope.method =returnMethod();
+    $scope.url = returnUrl();
+    $scope.id=returnUserId();
+    $http({method: $scope.method, url: $scope.url+'/'+$scope.id}).
+    success(function(data, status) {
+        $scope.status = status;
+        $scope.data = data;
+    }).
+    error(function(data, status) {
+        $scope.data = data || "Request failed";
+        $scope.status = status;
     });
 });
 

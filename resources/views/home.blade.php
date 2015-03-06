@@ -1,16 +1,15 @@
 @extends('app')
-
 @section('content')
-<div class="row col-lg-12" style="width:100%;">
+<div class="row col-lg-12" style="width:90%;margin-left:45px;">
   <div class="visible-phone" style="background:#00baff;">
       <img class="img-circle" style="width:60px;height:70px;" src="{{asset('img/team-3.jpg')}}">
   </div>
   <div class="row col-md-1 settings visible-desktop" style="margin-left:0px;">
     <div class="row setting-options">
         <div class="profile">
-            <p>Upload your profile picture</p>
+            <button>Upload your profile picture</button>
         </div>
-        <p>Edit profile</p>
+        <p style="margin-left:-150px;">Edit profile</p>
         <p class="setting progress">10%</p>
         <div class="col-md-8" ng-app="StrimUp">
             <li><span class="glyphicon glyphicon-exclamation-sign"></span><a style="color:#2B587A;" href="#">My portifolo</a></li>
@@ -60,49 +59,32 @@
         </div>
     </div>
   </div>
-  @foreach($tutorials as $tut)
+
       
-    <div class="col-md-5 chat-area chat-textarea single-chat">
+    <div class="col-md-5 chat-area chat-textarea single-chat" style="margin-left:-40px;">
       <div class="row" style="background:#00baff;min-height:280px;color:#fff;border-bottom:4px solid #fff;">
         Lesson preview here
         
         <!--<video width="1220" height="240" controls>
-          <source src="/video/{{$tut->tutorial_url}}" type="video/mp4">
+          <source src="/video/" type="video/mp4">
           Your browser does not support the video tag.
         </video>-->
       </div>
-      <div class="row" style="background:#00baff;min-height:280px;color:#fff;border-bottom:4px solid #fff;">
-        My portifolioss
-        <!--<video width="1220" height="240" controls>
-          <source src="/video/{{$tut->tutorial_url}}" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>-->
+      <div class="row" style="background:#;min-height:280px;color:#fff;border-bottom:4px solid #fff;">
+        Muragijimana's Portifolio
+        <div>
+            <p style="color:#000">Job Status&nbsp;<span>Currently employed @StrimUp&trade;  </span></p>  
+            <p style="color:#000">Answer rating(2)</p>  
+            <p style="color:#000">Contributions to open project</p>  
+            <p style="color:#000">Sociability&nbsp;<span>Good</span></p>  
+        </div>
       </div>
        <div class="row" style="background:#00baff;min-height:84.5px;color:#fff;border-bottom:4px solid #fff;">
         My special link
         
-        <!--<video width="1220" height="240" controls>
-          <source src="/video/{{$tut->tutorial_url}}" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>-->
       </div>
-    @endforeach
-    <!--<div class="chat-section">
-      
-         <p >Hi dude can you please tell me where i can learn php please tell me a good lecture</p>
-        <p class="second">Hi dude can you please tell me where i can learn php please tell me a good lecture</p>
-         <p >Hi dude can you please tell me where i can learn php please tell me a good lecture</p>
-        <p class="second">Hi dude can you please tell me where i can learn php please tell me a good lecture</p>
-         
-    </div>
-    <form id="chat">
-      <input id="userId" value="40" type="hidden">
-      <input id="receiverId" value="140" type="hidden">
-      <textarea></textarea>
-      
-    </form>-->
   </div>
-  <div class="col-md-2 visible-desktop" style=";width:22.3%;min-height:650px;">    
+  <div class="col-md-2 visible-desktop" style=";width:23.3%;min-height:650px;margin-left:18px;">    
      <div class="row" style="background:#fff;min-height:180px;">
         
      </div> 

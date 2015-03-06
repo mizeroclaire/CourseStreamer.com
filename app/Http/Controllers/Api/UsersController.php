@@ -1,6 +1,7 @@
-<?php namespace ApplicationName\Http\Controllers;
-
-
+<?php
+namespace StrimUp\Http\Controllers\Api;
+use StrimUp\Http\Requests;
+use StrimUp\Http\Controllers\Controller;
 class UsersController extends Controller {
 
   /*
@@ -31,6 +32,7 @@ class UsersController extends Controller {
   */
   public function index()
   {
+      $tutorials="null";
     return view('home');
   }
   public function settings()

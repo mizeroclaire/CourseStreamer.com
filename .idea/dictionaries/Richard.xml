@@ -2,8 +2,11 @@
   <dictionary name="Richard">
     <words>
       <w>chage</w>
+      <w>deletetutorial</w>
       <w>strim</w>
       <w>templating</w>
+      <w>tutorialname</w>
+      <w>tutorilas</w>
     </words>
   </dictionary>
 </component>

@@ -1,5 +1,5 @@
-<?php namespace StrimUp\Http\Controllers;
-
+<?php
+namespace StrimUp\Http\Controllers;
 use Illuminate\Support\Facades\URL;
 use StrimUp\Tutorial;
 use StrimUp\User;
