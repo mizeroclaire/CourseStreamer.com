@@ -93,7 +93,7 @@ return [
 	|
 	*/
 
-	'password' => 'lovecostnothing',
+	'password' => '',//set yours for just testing
 
 	/*
 	|--------------------------------------------------------------------------

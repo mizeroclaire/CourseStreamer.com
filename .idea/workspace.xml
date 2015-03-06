@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c045bb47-b871-4f58-b56b-f57179bb7c58" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/mail.php" afterPath="$PROJECT_DIR$/config/mail.php" />
     </list>
     <ignored path="CourseStreamer.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,6 +90,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="mail.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/mail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7077703" vertical-offset="1196" max-vertical-offset="2210">
+              <caret line="95" column="49" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/popup/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,10 +130,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33272728" vertical-offset="922" max-vertical-offset="1819">
+            <state vertical-scroll-proportion="-3.3272727" vertical-offset="922" max-vertical-offset="1819">
               <caret line="65" column="348" selection-start-line="65" selection-start-column="348" selection-end-line="65" selection-end-column="348" />
               <folding>
                 <element signature="e#188#219#0#HTML" expanded="true" />
@@ -166,6 +172,7 @@
         <option value="$PROJECT_DIR$/config/youtube.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/config/mail.php" />
       </list>
     </option>
   </component>
@@ -421,7 +428,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/css/home.blade.css&#10;home.b&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/css/home.blade.css&#10;rou&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/routes.php&#10;config/you&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/config/youtube.php&#10;config/app&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/config/app.php&#10;com&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/composer.json&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/js/popup/app.js&#10;help&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Api/HelpController.php&#10;cur&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Api/CurrenciesController.php&#10;cou&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Api/CountriesController.php&#10;group&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Api/GroupsController.php&#10;controller.php&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Controller.php&#10;hom.b&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/resources/views/home.blade.php&#10;home.bl&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/css/home.blade.css&#10;index.htm&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/js/partials/index.html&#10;controller&#9;null&#9;null&#10;Countr&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Api/CountriesController.php&#10;gro&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Api/GroupsController.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Api/UsersController.php&#10;partials/&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/js/partials&#10;video&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/js/popup/videoController.js&#10;js/app&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/js/popup/app.js&#10;view/app&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/resources/views/app.blade.php&#10;hel&#9;null&#9;null&#10;view/hom&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/resources/views/home.blade.php&#10;app.&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/js/popup/app.js&#10;app.js&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/js/popup/app.js" />
+    <property name="SearchEverywhereHistoryKey" value="config/ma&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/config/mail.php&#10;confi&#9;null&#9;null&#10;home&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/css/home.blade.css&#10;home.b&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/css/home.blade.css&#10;rou&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/routes.php&#10;config/you&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/config/youtube.php&#10;config/app&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/config/app.php&#10;com&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/composer.json&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/js/popup/app.js&#10;help&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Api/HelpController.php&#10;cur&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Api/CurrenciesController.php&#10;cou&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Api/CountriesController.php&#10;group&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Api/GroupsController.php&#10;controller.php&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Controller.php&#10;hom.b&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/resources/views/home.blade.php&#10;home.bl&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/css/home.blade.css&#10;index.htm&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/js/partials/index.html&#10;controller&#9;null&#9;null&#10;Countr&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Api/CountriesController.php&#10;gro&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Api/GroupsController.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/app/Http/Controllers/Api/UsersController.php&#10;partials/&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/js/partials&#10;video&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/js/popup/videoController.js&#10;js/app&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/js/popup/app.js&#10;view/app&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/resources/views/app.blade.php&#10;hel&#9;null&#9;null&#10;view/hom&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/resources/views/home.blade.php&#10;app.&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/js/popup/app.js&#10;app.js&#9;FILE&#9;file://C:/xampp/htdocs/CourseStreamer.com/public/js/popup/app.js" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -943,6 +950,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3272727" vertical-offset="922" max-vertical-offset="1819">
+          <caret line="65" column="348" selection-start-line="65" selection-start-column="348" selection-end-line="65" selection-end-column="348" />
+          <folding>
+            <element signature="e#188#219#0#HTML" expanded="true" />
+            <element signature="e#494#521#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/classpreloader/classpreloader/src/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3158784" vertical-offset="0" max-vertical-offset="2618">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/home.blade.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.7586207" vertical-offset="756" max-vertical-offset="2975">
@@ -951,14 +977,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33272728" vertical-offset="922" max-vertical-offset="1819">
-          <caret line="65" column="348" selection-start-line="65" selection-start-column="348" selection-end-line="65" selection-end-column="348" />
-          <folding>
-            <element signature="e#188#219#0#HTML" expanded="true" />
-            <element signature="e#494#521#0#HTML" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.7077703" vertical-offset="1196" max-vertical-offset="2210">
+          <caret line="95" column="49" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
