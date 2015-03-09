@@ -59,8 +59,6 @@
         </div>
     </div>
   </div>
-
-      
     <div class="col-md-5 chat-area chat-textarea single-chat" style="margin-left:-40px;">
       <div class="row" style="background:#00baff;min-height:280px;color:#fff;border-bottom:4px solid #fff;">
           <!--<iframe src="https://player.vimeo.com/video/120893601?portrait=0" width="560" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/120893601">Me &amp; You</a> from <a href="https://vimeo.com/jacktew">Jack Tew</a> on <a href="https://vimeo.com">Vimeo</a>.</p>-->

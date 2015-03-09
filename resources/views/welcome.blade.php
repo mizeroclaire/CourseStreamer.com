@@ -2,13 +2,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="Fun lessons in programming" />
+	<meta name="description" content="Fun lessons in programming, learning, social media" />
 	<meta name="keywords" content="strimup, programming, fun, lessons, learn, platform" />
 	<meta name="author" content="CourseStreamer.com" />
-	<link rel="stylesheet" type="text/css" href="/css/general.css">
-	<link rel="stylesheet" type="text/css" href="/css/helpers.css">
-	<link rel="stylesheet" type="text/css" href="/css/app.css">
-	<link rel="stylesheet" href="/css/foundation.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="{{asset('css/general.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('css/helpers.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
+	<link rel="stylesheet" href="{{asset('css/foundation.css')}}">
 </head>
 <title>
 	StrimUp|Home
@@ -45,7 +46,7 @@
   </div>
   <div class="large-6 columns text-center">
     <br>
-    <video src="" autobuffer autoloop loop controls poster="/images/video.png"></video>
+    <video src="" width="" autobuffer autoloop loop controls poster="{{asset('img/')}}"></video>
     <a href="/play-ground" class="button radius">View here in the Playground</a>
   </div>
 </div>
@@ -73,8 +74,8 @@
   </footer>
 </div>
 @yield('content')
-  <script src="/vendor/foundation-5.5.0/js/vendor/jquery.js" type="text/javascript" charset="utf-8" async defer></script>
-  <script src="/vendor/foundation-5.5.0/js/foundation.min.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script src="{{asset('vendor/foundation-5.5.0/js/vendor/jquery.js')}}" type="text/javascript" charset="utf-8" async defer></script>
+  <script src="{{asset('vendor/foundation-5.5.0/js/foundation.min.js')}}" type="text/javascript" charset="utf-8" async defer></script>
   <script>
   $(document).foundation();
   </script>
