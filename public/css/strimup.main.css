@@ -1,0 +1,25 @@
+body {
+	background-color: #FFF;
+}
+
+.navbar-default {
+	background-color: #00baff;
+	border-color: #00baff;
+	color: #FFF;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFF;
+}
+
+.top-nav>li>a , .navbar-default .navbar-nav>li>a {
+	color: #FFF;
+}
+
+.side-nav {
+	background-color: #00baff;
+}
+
+ {
+color: #777;
+}
