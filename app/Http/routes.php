@@ -49,3 +49,10 @@ Route::resource('countries','Api\CountriesController');
 
 # currencies
 Route::resource('currencies','Api\CurrenciesController');
+
+
+# test !
+Route::get('users/1/home', function ()
+{
+	return view('users/home');
+}); 
