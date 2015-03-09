@@ -14,7 +14,7 @@ Route::get('home', 'HomeController@index');
 Route::get('in/choice','HomeController@pageSwitch');
 Route::get('settings', 'HomeController@settings');
 
-Route::get('user/{id}','HomeController@getUser');
+// Route::get('user/{id}','HomeController@getUser');
 
 Route::get('privacy', 'HomeController@privacy');
 
@@ -54,5 +54,10 @@ Route::resource('currencies','Api\CurrenciesController');
 # test !
 Route::get('users/1/home', function ()
 {
-	return view('users/home');
+	return view('users/edit');
+}); 
+
+Route::get('users/1/edit', function ()
+{
+	return view('users/edit');
 }); 
