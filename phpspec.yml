@@ -1,5 +1,0 @@
-suites:
-    main:
-        namespace: StrimUp
-        psr4_prefix: StrimUp
-        src_path: app
