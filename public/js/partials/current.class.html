@@ -2,6 +2,9 @@
 <head></head>
 <body>
 <div id="videoPlayerBox">
+    <div ng-controller="aboutController">
+        {message}
+    </div>
   <video id="Strim_video" style="width:640px;height:360px;"  src="video/Tutorial NodeJS Part 2.mp4"  width="550" height="320" ></video>
  <div id="video_control">
     <button style="margin-top:-20px;" id="pausebtn" onclick="playPause(this,'Strim_video')">Pause</button>

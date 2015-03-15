@@ -4,8 +4,9 @@
 <div class="collapse navbar-collapse navbar-ex1-collapse col-sm-1">
     <ul class="nav navbar-nav">
         <li class="active">
-            <a href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="{{url('/users/1/home')}}"><i class="fa fa-fw fa-home"></i> Home</a>
         </li>
+
         <li>
             <a href="#"><i class="fa fa-fw fa-check"></i> My Portfolio</a>
         </li>
@@ -16,7 +17,7 @@
             <a href="#"><i class="fa fa-fw fa-link"></i> My Links</a>
         </li>
         <li>
-            <a href="#"><i class="fa fa-fw fa-heart-o"></i> Community</a>
+            <a href="{{url('/in/community')}}"><i class="fa fa-fw fa-heart-o"></i> Community</a>
         </li>
         <li>
             <a href="#"><i class="fa fa-fw fa-comments"></i> Thinking Post</a>

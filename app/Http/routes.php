@@ -20,7 +20,7 @@ Route::get('/', 'WelcomeController@index');
  * @author Muragijimana richard <strimup@gmail.com>
  */
 
-Route::resource('home','HomeController');
+//Route::resource('home','HomeController');
 
 
 Route::controllers([
@@ -35,27 +35,39 @@ Route::controllers([
  */
 
 # api help
-Route::get('api/help/users/auth', 'HelpController@getUserAuth');    
+Route::get('api/help/users/auth', 'HelpController@getUserAuth');
 Route::get('api/help/resources/{resource}', 'HelpController@getResourceDocs');
+	# countries
+	Route::resource('countries','Api\CountriesController');
 
-# users
-Route::resource('users','Api\UsersController');
+	# currencies
+	Route::resource('currencies','Api\CurrenciesController');
+//iI used prefix In to allow multiple service that will
+//be offered by StrimUp eg In/education, or In/businesss
+Route::group(array('prefix' => 'In','before'=>'csrf'), function(){
 
-# profiles
-Route::resource('profiles','Api\ProfilesController');
+    Route::resource('learn','TutorialController');
+    # users
+	Route::resource('users','Api\UsersController');
 
-# groups
-Route::resource('groups','Api\GroupsController');
+	#tutorial by specific user
+	Route::resource('users.learn','LearningController');
 
-# countries
-Route::resource('countries','Api\CountriesController');
+	# profiles
+	Route::resource('profiles','Api\ProfilesController');
 
-# currencies
-Route::resource('currencies','Api\CurrenciesController');
+	# groups
+	Route::resource('groups','Api\GroupsController');
 
 
+});
 # test !
-Route::resource('api','TutorialController');
+
+
+
+Route::get('in/community',function(){
+   return view('layouts.community') ;
+});
 
 Route::get('users/1/home', function ()
 {

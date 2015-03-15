@@ -1,8 +1,9 @@
 <?php 
 
 namespace StrimUp\Http\Controllers;
+use Illuminate\Support\Facades\Input;
 use StrimUp\Tutorial;
-use DB;
+use StrimUp\Http\Controllers\Auth;
 use Request;
 class TutorialController extends Controller {
 	/**
@@ -26,8 +27,23 @@ class TutorialController extends Controller {
      *
      * @return Response
      */
+    public function create(){
+        $tutorial   =   Input::get('user_id');
+        $tutorial   =   Input::get('tutorial_slug');
+        $tutorial   =   Input::get('tutorial_notes');
+        $tutorial   =   Input::get('tutorial_language');
+        $tutorial   =   Input::get('tutorial_url');
+        $tutorial->save();
+        return $tutorial;
+
+    }
+    public function show($id){
+        $tutorial   =   Tutorial::find($id);
+        return $tutorial;
+    }
     public function store() {
         $tutorials = Tutorial::create(Request::all());
+
         return $tutorials;
     }
     /**
@@ -38,11 +54,10 @@ class TutorialController extends Controller {
      */
     public function update($id) {
         $tutorials = Tutorial::find($id);
-        $tutorials->done = Request::input('done');
+        $tutorials->tutorial_name = Request::input('tutorial_name');
         $tutorials->save();
         return $tutorials;
     }
-
     /**
      * Remove the specified resource from storage.
      *
