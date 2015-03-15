@@ -10,6 +10,7 @@
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="{{ url('/vendor/startbootstrap-freelancer') }}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url('/') }}/css/foundation.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="{{ url('/vendor/startbootstrap-freelancer') }}/css/freelancer.css" rel="stylesheet">
@@ -41,7 +42,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#page-top">Strim Up</a>
+
+            <a class="navbar-brand" href="#page-top" >Strim Up</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -70,16 +72,46 @@
 </nav>
 
 <!-- Header -->
-<header style="background: #34495e;">
+<header style="background: #5cb8e6;"><!--#5cb8e6;--><!--34495e-->
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive" src="{{ url('/vendor/startbootstrap-freelancer') }}/img/profile.png" alt="">
-                <div class="intro-text">
-                    <span class="name">Learn &amp;be social</span>
-                    <!--<hr class="star-light">-->
-                    <span class="skills">With-Mates- or your-Friends</span>
+                <!--<img class="img-responsive" src="{{ url('/vendor/startbootstrap-freelancer') }}/img/profile.png" alt="">-->
+                <div style="height: 50px;width: 100%;">
+                    <div class="col-lg-12" >
+                        <div class="large-6 columns">
+                            <p style="font-family: font-familyVerdana, Arial, Sans-Serif;font-size: 40px;">Featured Lesson</p>
+                            <p class="summary" style="width: 100%;">
+                                (A short summary about this lesson...)
+                                For example: This lesson teaches you how to write a basic Javascript function.
+                            </p>
+                            <p><a style="color: #ffffff;" href="#">link to video</a></p>
+                        </div>
+                        <div class="large-6 columns text-center">
+                            <br>
+                            <video src="" width="100%" autobuffer autoloop loop controls poster="{{asset('img/')}}"></video>
+                            <a href="/play-ground" class="button radius">View here in the Playground</a>
+                        </div>
+                    </div>
                 </div>
+
+                <footer class="text-center">
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <h6 style="color: #ffffff;">Register an account or Sign In</h6>
+                            <p><a href="auth/register" class="button radius success">Sign Up</a>
+                                <a href="auth/login" class="button radius primary">Sign In</a>
+                                <br>To be able to <b>save videos to playlist, watch premium videos, and so much more</b></p>
+                            <hr>
+
+                        </div>
+                    </div>
+                </footer>
+                <!--<div class="intro-text">
+                    <span class="name">Learn &amp;be social</span>
+                    <!--<hr class="star-light">
+                    <span class="skills">With your friends or your mates</span>
+                </div>-->
             </div>
         </div>
     </div>

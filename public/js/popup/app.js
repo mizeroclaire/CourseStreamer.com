@@ -21,6 +21,9 @@ StrimUp.controller("ModalCtrl", function($scope) {
   };
 
 });
+
+
+/* Routing the internal view partials  */
 StrimUp.config(function($routeProvider,$locationProvider) {
         
         $routeProvider
@@ -40,7 +43,7 @@ StrimUp.config(function($routeProvider,$locationProvider) {
                 templateUrl : 'js/partials/community.html',
                 controller  : 'communityController'
             })
-            .otherwise({ redirectTo: '/in/Strims' });
+            .otherwise({ templateUrl:'js/partials/current.class.html' });
     });
  // create the controller and inject Angular's $scope and http to cummunicate with angular(php)
     StrimUp.controller('mainController', function($scope) {

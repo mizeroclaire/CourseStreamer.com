@@ -14,6 +14,13 @@
     <!-- Bootstrap Core CSS -->
     <link href="{{ url('/vendor/sb-admin-1.0.2') }}/css/bootstrap.min.css" rel="stylesheet">
 
+    <!--angular module here-->
+    <script src="{{asset('js/popup/angular.min.js')}}"></script>
+    <script src="{{asset('js/popup/angular-route.min.js')}}"></script>
+
+    <script src="{{asset('js/popup/angular-ui-bootstrap-modal.js')}}"></script>
+    <script src="{{asset('js/popup/app.js')}}"></script>
+    <!--angular module end above-->
     <!-- Custom CSS -->
     <link href="{{ url('/vendor/sb-admin-1.0.2') }}/css/sb-admin.css" rel="stylesheet">
 
@@ -26,6 +33,7 @@
 
     <!-- Custom Fonts -->
     <link href="{{ url('/vendor/sb-admin-1.0.2') }}/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <!-- <link rel="stylesheet" href="{{asset('css/community.css')}}">-->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

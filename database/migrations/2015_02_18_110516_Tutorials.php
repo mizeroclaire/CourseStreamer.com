@@ -16,12 +16,15 @@ class Tutorials extends Migration {
 		Schema::create('tutorials', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->string('username');
-			$table->string('tutorial_url');
-			$table->timestamp('created_at');
+            $table->integer('user_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+			$table->string('tutorial_slug');
+            $table->string('tutorial_notes')->nullable();
+            $table->string('tutorial_language')->nullable();
+			$table->string('tutorial_url')->nullable();
+            $table->timestamps();
 		});
 	}
-
 	/**
 	 * Reverse the migrations.
 	 *
