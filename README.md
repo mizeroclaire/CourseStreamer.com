@@ -10,20 +10,9 @@ Take online class learn and be social
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
+This project use laravel latest version 5.0 with other framework such as angular js, bootstrap, node.js will be also in and many more
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
+* talk to mr CEO via directly on his email beastar457@gmail.com or just.
 * Other community or team contact
