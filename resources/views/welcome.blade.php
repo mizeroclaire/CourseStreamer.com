@@ -11,7 +11,7 @@
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="{{ url('/vendor/startbootstrap-freelancer') }}/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ url('/') }}/css/foundation.min.css" rel="stylesheet">
-
+    <link href="{{ url('/') }}/css/strimup.main.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="{{ url('/vendor/startbootstrap-freelancer') }}/css/freelancer.css" rel="stylesheet">
 
@@ -58,11 +58,9 @@
                 <li class="page-scroll">
                     <a href="#about">Pricing</a>
                 </li>
+
                 <li class="page-scroll">
-                    <a href="#contact">Sign In</a>
-                </li>
-                <li class="page-scroll">
-                    <a href="#signup">Sign Up</a>
+                    <a href="#signup">Faq</a>
                 </li>
             </ul>
         </div>
@@ -76,7 +74,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <!--<img class="img-responsive" src="{{ url('/vendor/startbootstrap-freelancer') }}/img/profile.png" alt="">-->
+
                 <div style="height: 50px;width: 100%;">
                     <div class="col-lg-12" >
                         <div class="large-6 columns">
@@ -122,8 +120,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Learn the most current technology</h2>
-                <hr class="star-primary">
+                <!--<h2>Learn the most current technology</h2>-->
+
             </div>
         </div>
         <div class="row">
@@ -136,7 +134,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                   <!-- <img src="{{ url('/vendor/startbootstrap-freelancer') }}/img/portfolio/submarine.png" class="img-responsive" alt="">-->
+
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -146,7 +144,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <!--<img src="{{ url('/vendor/startbootstrap-freelancer') }}/img/portfolio/getitalthand.png" class="img-responsive" alt="">-->
+
                 </a>
             </div>
         </div>
@@ -154,24 +152,10 @@
 </section>
 
 <!-- About Section -->
-<section class="success" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Choose best fitting plan for you</h2>
-                <hr class="star-light">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-lg-offset-2">
-                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-            </div>
-            <div class="col-lg-4">
-                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-            </div>
 
-        </div>
-    </div>
+<section class="" id="about">
+
+
 </section>
 
 <!-- Contact Section -->
@@ -180,7 +164,8 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <!-- <h2>Contact Me</h2>-->
-                <hr class="star-primary">
+
+                <!--<hr class="star-primary">-->
             </div>
         </div>
         <div class="row">
@@ -235,11 +220,11 @@
         <div class="container">
             <div class="row">
                 <div class="footer-col col-md-4">
-                    <h3>Location</h3>
+                    <h3 style="color: #ffffff">Location</h3>
                     <p>25 city-house <br>umuganda avenue, St 25</p>
                 </div>
                 <div class="footer-col col-md-4">
-                    <h3>Around the Web</h3>
+                    <h3 style="color: #ffffff">Around the Web</h3>
                     <ul class="list-inline">
                         <li>
                             <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
@@ -259,7 +244,7 @@
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">
-                    <h3>About StrimUp&trade;</h3>
+                    <h3 style="color: #ffffff">About StrimUp&trade;</h3>
                     <p>StrimUp is a free to use and pay for premium , open web platform that provide online coaching using tutorials  created by <a href="http://strimUp.com">StrimUp&trade;</a>.</p>
                 </div>
             </div>
@@ -297,7 +282,7 @@
                     <div class="modal-body">
                         <h2>Project Title</h2>
                         <hr class="star-primary">
-                        <img src="{{ url('/vendor/startbootstrap-freelancer') }}/img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                         <ul class="list-inline item-details">
                             <li>Client:
@@ -334,7 +319,7 @@
                     <div class="modal-body">
                         <h2>Project Title</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                         <ul class="list-inline item-details">
                             <li>Client:
@@ -371,7 +356,7 @@
                     <div class="modal-body">
                         <h2>Project Title</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                         <ul class="list-inline item-details">
                             <li>Client:
@@ -408,7 +393,7 @@
                     <div class="modal-body">
                         <h2>Project Title</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                         <ul class="list-inline item-details">
                             <li>Client:
@@ -445,7 +430,7 @@
                     <div class="modal-body">
                         <h2>Project Title</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                         <ul class="list-inline item-details">
                             <li>Client:
@@ -482,7 +467,7 @@
                     <div class="modal-body">
                         <h2>Project Title</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                         <ul class="list-inline item-details">
                             <li>Client:
