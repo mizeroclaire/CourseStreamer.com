@@ -77,7 +77,7 @@
 
                 <div style="height: 50px;width: 100%;">
                     <div class="col-lg-12" >
-                        <div class="large-6 columns">
+                        <div class="col-lg-8 pull-left" style="margin-left: -180px;">
                             <p style="font-family: font-familyVerdana, Arial, Sans-Serif;font-size: 40px;">Featured Lesson</p>
                             <p class="summary" style="width: 100%;">
                                 (A short summary about this lesson...)
@@ -87,8 +87,8 @@
                         </div>
                         <div class="large-6 columns text-center">
                             <br>
-                            <video src="" width="100%" autobuffer autoloop loop controls poster="{{asset('img/')}}"></video>
-                            <a href="/play-ground" class="button radius">View here in the Playground</a>
+                            <video src="" style="margin-left: 85px;" width="100%" autobuffer autoloop loop controls poster="{{asset('img/')}}"></video>
+                            <a href="/play-ground" style="margin-left: 145px;"  class="button radius">View here in the Playground</a>
                         </div>
                     </div>
                 </div>

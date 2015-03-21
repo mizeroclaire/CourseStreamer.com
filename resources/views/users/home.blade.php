@@ -14,7 +14,6 @@
             </div>
         </div>-->
         <!-- /.row -->
-
         <div class="row">
             <div class="col-lg-9 pull-left">
                 <div class="panel panel-default">
@@ -38,31 +37,31 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12 panel panel-default" style="margin-top:-10px;min-height:45px;">
+                <div class="col-lg-12 panel panel-default" style="margin-top:-15px;min-height:45px;">
                     <div class="col-md-5">
-                        <span style="color:#8e44ad;font-size:60px;">&ldquo;</span><p style="margin-top:-70px;margin-left:25px;">Love cost nothing</p>
+                        <span style="color:#8e44ad;font-size:60px;">&ldquo;</span><p style="margin-top:-70px;margin-left:25px;">Quotes of a day</p>
                     </div>
                     <div class="col-md-5">
-                         <span style="color:#8e44ad;font-size:60px;">&ldquo;</span><p style="margin-top:-70px;margin-left:25px;">Love cost nothing</p>
+                         <span style="color:#8e44ad;font-size:60px;">&ldquo;</span><p style="margin-top:-70px;margin-left:25px;">Hotest <portifolio></portifolio></p>
                     </div>
                     <div class="col-md-2">
-                        
+
                     </div>
                 </div>
             </div>
 
             <div class="col-md-3 panel panel-default" style="min-height:180px;margin-left:-5px;">
-                    here
+                   show mates current instutions he/she is getting knowledge from
             </div>
 
         </div>
         <div class="col-lg-9 panel panel-default pull-left" style="min-height:300px;width:74%;">
-            <div class="col-lg-3">
-
+            <div class="col-lg-9">
+                Notes and assignment here as pdf, ppt or other format with direct link of download(show as well where mates is getting this notes )
             </div>
         </div>
         <div class="col-md-3 panel panel-default pull-left" style="margin-left:10px;min-height:300px;">
-            
+            show current mates and current lequested tut for help and direct post answer link for a requested help from friends
         </div>
         <!-- /.row -->
 
@@ -81,7 +80,14 @@
                   <div class="modal-body" >
                       <div style="background:#fff;color:#000;height:450px;width:94%;margin-left:5px;">
                         <div class="col-lg-12" id="choice-model" ng-controller="mainController">
-                          
+
+                            <!--video from sublime down here-->
+                            <video id="a240e92d" class="sublime" poster="https://cdn.sublimevideo.net/vpa/ms_800.jpg" width="640" height="360" title="Midnight Sun" data-uid="a240e92d" preload="none">
+                                <source src="https://cdn.sublimevideo.net/vpa/ms_360p.mp4" />
+                                <source src="https://cdn.sublimevideo.net/vpa/ms_720p.mp4" data-quality="hd" />
+                                <source src="https://cdn.sublimevideo.net/vpa/ms_360p.webm" />
+                                <source src="https://cdn.sublimevideo.net/vpa/ms_720p.webm" data-quality="hd" />
+                            </video>
                         </div>
                         <div  style="width:100%;">
                             <div class="col-md-7 pull-left" style="margin-left:10px;height:420px;">

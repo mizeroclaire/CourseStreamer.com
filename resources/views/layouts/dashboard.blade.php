@@ -46,7 +46,7 @@
 
 <body>
 
-    <div id="wrapper">
+    <div id="" style="margin-left:200px;">
 
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-fixed-top container" role="navigation">
