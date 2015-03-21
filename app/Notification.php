@@ -2,11 +2,11 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-class Profile extends Model {
+class Notification extends Model {
 
-	protected $table = 'profiles';
+	protected $table = 'notifications';
 
-	protected $fillable = ['user_id','bio','website','blog'];
+	protected $fillable = ['user_id','message'];
 
 	/**
 	 * Relationships
