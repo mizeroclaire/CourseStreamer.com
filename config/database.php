@@ -53,20 +53,21 @@ return [
 		],
 
 		'mysql' => [
-	    'read' => [
-	        'host' => '127.0.0.1',
-	    ],
-	    'write' => [
-	        'host' => '127.0.0.1'
-	    ],
-	    'driver'    => 'mysql',
-	    'database'  => 'strimup',
-	    'username'  => 'root',
-	    'password'  => '',
-	    'charset'   => 'utf8',
-	    'collation' => 'utf8_unicode_ci',
-	    'prefix'    => '',
-	],
+
+	    	'read' => [
+		        'host' => '127.0.0.1',
+		    ],
+		    'write' => [
+		        'host' => '127.0.0.1'
+		    ],
+		    'driver'    => 'mysql',
+		    'database'  => getenv('DB_DATABASE'),
+		    'username'  => getenv('DB_USERNAME'),
+		    'password'  => getenv('DB_PASSWORD'),
+		    'charset'   => 'utf8',
+		    'collation' => 'utf8_unicode_ci',
+		    'prefix'    => '',
+		],
 
 		'pgsql' => [
 			'driver'   => 'pgsql',
