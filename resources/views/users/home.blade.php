@@ -4,7 +4,7 @@
 <div id="page-wrapper" style="margin-left: -10%;"ng-app="StrimUp">
 
     <div class="container-fluid">
-        <!--video loader--><script type="text/javascript" src="//cdn.sublimevideo.net/js/23bfegdw.js"></script><!--video loader script-->
+        <!--video loader--><!--<script type="text/javascript" src="//cdn.sublimevideo.net/js/23bfegdw.js"></script><!--video loader script-->
         <!-- Page Heading -->
        <!-- <div class="row">
             <div class="col-lg-12">
@@ -21,7 +21,7 @@
                         <h3 class="panel-title"><i class="fa fa-camera-retro  fa-2x fa-fw"></i> Bio</h3>
                     </div>-->
                     <div class="panel-body">
-                        <div class="row pull-left" >
+                        <div class="col-md-7 pull-left" style="border-right: 2px solid #CCCCCC;">
                             <div class="col-md-4">
                                 <img class="img-circle pull-left" src="http://placehold.it/80x80" alt="Avatar">
                             </div>
@@ -31,9 +31,10 @@
                                 <a href="#" class="btn btn-default">Setting</a>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-5">
                                 connections
                                 <hr class="#ccc;">
+                                12 new school wait for you to connect
                         </div>
                     </div>
                 </div>
@@ -82,12 +83,12 @@
                         <div class="col-lg-12" id="choice-model" ng-controller="mainController">
 
                             <!--video from sublime down here-->
-                            <video id="a240e92d" class="sublime" poster="https://cdn.sublimevideo.net/vpa/ms_800.jpg" width="640" height="360" title="Midnight Sun" data-uid="a240e92d" preload="none">
+                            <!--<video id="a240e92d" class="sublime" poster="https://cdn.sublimevideo.net/vpa/ms_800.jpg" width="640" height="360" title="Midnight Sun" data-uid="a240e92d" preload="none">
                                 <source src="https://cdn.sublimevideo.net/vpa/ms_360p.mp4" />
                                 <source src="https://cdn.sublimevideo.net/vpa/ms_720p.mp4" data-quality="hd" />
                                 <source src="https://cdn.sublimevideo.net/vpa/ms_360p.webm" />
                                 <source src="https://cdn.sublimevideo.net/vpa/ms_720p.webm" data-quality="hd" />
-                            </video>
+                            </video>-->
                         </div>
                         <div  style="width:100%;">
                             <div class="col-md-7 pull-left" style="margin-left:10px;height:420px;">
