@@ -9,8 +9,31 @@
 	<link href="/css/app.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
 
-    <link rel="stylesheet" href="{{asset('css/bootstrap-responsive.css')}}">
+
 	<link href="{{asset('css/home.blade.css')}}" rel="stylesheet">
+
+    <!----testing--->
+
+    <!-- Custom CSS -->
+    <link href="{{ url('/vendor/sb-admin-1.0.2') }}/css/sb-admin.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="{{ url('/vendor/sb-admin-1.0.2') }}/css/plugins/morris.css" rel="stylesheet">
+
+    <!-- Application CSS -->
+    <link href="{{ url('/') }}/css/strimup.main.css" rel="stylesheet">
+    <!-- <link href="{{ url('/') }}/css/bootstrap-responsive.css" rel="stylesheet">-->
+
+    <!-- Custom Fonts -->
+    <link href="{{ url('/vendor/sb-admin-1.0.2') }}/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- <link rel="stylesheet" href="{{asset('css/community.css')}}">-->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <!------>
+
+
+
+
 
 	<!-- Fonts -->
 	<!--<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>-->
@@ -20,10 +43,15 @@
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]--> 
+
+	<![endif]-->
+    <script src="{{ url('/vendor/sb-admin-1.0.2') }}/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ url('/vendor/sb-admin-1.0.2') }}/js/bootstrap.min.js"></script>
 </head>
 <body id="main">
-	<nav class="navbar navbar-default container">
+	<!--<nav class="navbar navbar-default container">
 		<div class="container-fluid" >
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -38,7 +66,7 @@
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
 				<ul class="nav navbar-nav">
-					<!--<li><a href="/">Home</a></li>-->
+					<!--<li><a href="/">Home</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					@if (Auth::guest())
@@ -57,7 +85,125 @@
 				</ul>
 			</div>
 		</div>
-	</nav>
+	</nav>-->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top container" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ url('/') }}">Strim Up</a>
+        </div>
+        <!-- Top Menu Items -->
+        <ul class="nav navbar-right top-nav">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
+                <ul class="dropdown-menu message-dropdown">
+                    <li class="message-preview">
+                        <a href="#">
+                            <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                <div class="media-body">
+                                    <h5 class="media-heading"><strong>Muragijimana R</strong>
+                                    </h5>
+                                    <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="message-preview">
+                        <a href="#">
+                            <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                <div class="media-body">
+                                    <h5 class="media-heading"><strong>John Smith</strong>
+                                    </h5>
+                                    <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="message-preview">
+                        <a href="#">
+                            <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                <div class="media-body">
+                                    <h5 class="media-heading"><strong>John Smith</strong>
+                                    </h5>
+                                    <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="message-footer">
+                        <a href="#">Read All New Messages</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
+                <ul class="dropdown-menu alert-dropdown">
+                    <li>
+                        <a href="#">Alert Name <span class="label label-default">Alert Badge</span></a>
+                    </li>
+                    <li>
+                        <a href="#">Alert Name <span class="label label-primary">Alert Badge</span></a>
+                    </li>
+                    <li>
+                        <a href="#">Alert Name <span class="label label-success">Alert Badge</span></a>
+                    </li>
+                    <li>
+                        <a href="#">Alert Name <span class="label label-info">Alert Badge</span></a>
+                    </li>
+                    <li>
+                        <a href="#">Alert Name <span class="label label-warning">Alert Badge</span></a>
+                    </li>
+                    <li>
+                        <a href="#">Alert Name <span class="label label-danger">Alert Badge</span></a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">View All</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>Muragijimana R <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="main-nav">
+            @include('widgets.main_menu')
+        </div>
+    </nav>
 	@yield('content')
 	<!-- Scripts -->
 	<!--<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

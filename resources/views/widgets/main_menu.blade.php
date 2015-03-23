@@ -3,9 +3,9 @@
 
 <div class="collapse navbar-collapse navbar-ex1-collapse col-sm-1">
     <ul class="nav navbar-nav">
-        <li class="active">
+        <!---<li class="active">
             <a href="{{url('/users/1/home')}}"><i class="fa fa-fw fa-home"></i> Home</a>
-        </li>
+        </li>-->
 
         <li>
             <a href="#"><i class="fa fa-fw fa-check"></i> My Portfolio</a>
