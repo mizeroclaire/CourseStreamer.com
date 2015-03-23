@@ -27,7 +27,7 @@
                         <div class="col-md-5">
                                 Connections
                                 <hr class="#ccc;">
-                                12 new school wait for you to connect
+                                12 new school wait for you to connect ...
                         </div>
                     </div>
                 </div>

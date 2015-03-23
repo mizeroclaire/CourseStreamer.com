@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>StrimUp.com</title>
     <meta charset='utf-8'>
-
+<!---Core app css-->
     <!---Core app css-->
     <link href="/css/app.css" rel="stylesheet">
 

@@ -58,7 +58,7 @@ class TutorialController extends Controller {
         $tutorials->save();
         return $tutorials;
     }
-    /**
+    /*******
      * Remove the specified resource from storage.
      *
      * @param  int  $id
