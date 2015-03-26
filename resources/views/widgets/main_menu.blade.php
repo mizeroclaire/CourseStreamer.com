@@ -8,7 +8,10 @@
         </li>-->
 
         <li>
-            <a href="#"><i class="fa fa-fw fa-check"></i> My Portfolio</a>
+            <a href="#"><i class="fa fa-fw fa-circle"></i>Strim mix</a>
+        </li>
+        <li>
+            <a href="#"><i class="fa fa-fw fa-circle"></i> My Portfolio</a>
         </li>
         <li>
             <a href="#"><i class="fa fa-fw fa-male"></i> My Mates</a>

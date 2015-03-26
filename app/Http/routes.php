@@ -51,7 +51,7 @@ Route::group(array('prefix' => 'In','before'=>'csrf'), function(){
 	Route::resource('users','Api\UsersController');
 
 	#tutorial by specific user
-	Route::resource('users.learn','LearningController');
+	Route::resource('users.learn','Api\LearningController');
 
 	# profiles
 	Route::resource('profiles','Api\ProfilesController');
@@ -59,22 +59,16 @@ Route::group(array('prefix' => 'In','before'=>'csrf'), function(){
 	# groups
 	Route::resource('groups','Api\GroupsController');
 
+	Route::resource('strims','Api\UsersController');
 
 });
-# test !
 
-
-
-Route::get('in/community',function(){
+/*Route::get('in/community',function(){
    return view('layouts.community') ;
 });
 
-Route::get('users/1/home', function ()
-{
-	return view('users/home ');
-}); 
 
 Route::get('users/1/edit', function ()
 {
 	return view('users/edit');
-}); 
+}); */

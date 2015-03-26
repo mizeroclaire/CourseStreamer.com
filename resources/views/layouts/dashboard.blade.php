@@ -3,16 +3,16 @@
 <head>
     <meta charset="utf-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
     <title>StrimUp.com</title>
     <meta charset='utf-8'>
-<!---Core app css-->
+
     <!---Core app css-->
     <link href="/css/app.css" rel="stylesheet">
 
     <!--Bootstrap css-->
     <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
-    <link href="{{ url('/') }}/css/bootstrap-responsive.css" rel="stylesheet">
+    <!--<link href="{{ url('/') }}/css/bootstrap-responsive.css" rel="stylesheet">-->
 
     <link href="{{asset('css/home.blade.css')}}" rel="stylesheet">
 
@@ -28,7 +28,7 @@
     <link href="{{ url('/') }}/css/strimup.main.css" rel="stylesheet">
 
 
-    <!-- Custom Fonts -->
+    <!-- Js for user/home -->
     <link href="{{ url('/vendor/sb-admin-1.0.2') }}/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- <link rel="stylesheet" href="{{asset('css/community.css')}}">-->
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -54,7 +54,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="{{ url('/vendor/sb-admin-1.0.2') }}/js/bootstrap.min.js"></script>
 </head>
-<body id="main">
+<body id="main" style="background:#ecf0f1;">
 <!--<nav class="navbar navbar-default container">
 		<div class="container-fluid" >
 			<div class="navbar-header">
@@ -70,7 +70,7 @@
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
 				<ul class="nav navbar-nav">
-					<!--<li><a href="/">Home</a></li>
+					<li><a href="/">Home</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					@if (Auth::guest())
@@ -185,7 +185,7 @@
             </ul>
         </li>
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>Muragijimana R <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Richard457<b class="caret"></b></a>
             <ul class="dropdown-menu">
                 <li>
                     <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
@@ -208,7 +208,7 @@
         @include('widgets.main_menu')
     </div>
 </nav>
-<div class="col-lg-12 centelise visible-desktop">
+<div class="col-xs-12 centelise container-non-responsive ">
     @yield('content')
 </div>
 

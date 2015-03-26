@@ -2,6 +2,7 @@
 namespace StrimUp\Http\Controllers\Api;
 use StrimUp\Http\Requests;
 use StrimUp\Http\Controllers\Controller;
+use StrimUp\Auth;
 class UsersController extends Controller {
 
   /*
@@ -20,10 +21,10 @@ class UsersController extends Controller {
   *
   * @return void
   */
-  public function __construct()
+  /*public function __construct()
   {
     $this->middleware('auth');
-  }
+  }*/
 
   /**
   * Show the application dashboard to the user.
@@ -32,24 +33,26 @@ class UsersController extends Controller {
   */
   public function index()
   {
-      $tutorials="null";
-    return view('home');
-  }
-  public function settings()
-  {
-    return view('settings');
-  }
-  public function privacy()
-  {
-    return view('privacy');
-  }
-  public function error()
-  {
-    return view('503');
-  }
-  public function play()
-  {
-    return view('play-ground')->with('message','hello you are watching fews video please upgrade to premium to see more!');
-  }
 
+   //showing home@Strims with user's record
+    if(!$this->middleware('auth')){//remove ! for production i am testing that's why i don't need more login every time a test
+        //if a use logged in let access all
+        return view('users.home')
+            ->with('profile',$this->getUserProfile())
+            ->with('currentClass',$this->getUserCurrentClass())
+            ->with('CurrentGroup',$this->getUserCurrentGroups());
+            
+    }else{
+        return redirect('/')->with('message','You are not allowed to view this file please log in first!');
+    }
+  }
+  public function getUserProfile(){
+        return "user profile";
+  }
+   public function getUserCurrentClass(){
+        
+  }
+   public function getUserCurrentGroups(){
+       
+  }
 }
