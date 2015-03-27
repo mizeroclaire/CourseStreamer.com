@@ -8,6 +8,7 @@ use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
 
 class User extends Model implements AuthenticatableContract, CanResetPasswordContract {
 
+
 	use Authenticatable, CanResetPassword;
 
 	/**
@@ -48,4 +49,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 	{
 		return $this->hasMany('Mates');
 	}
+	public function groups(){
+        return $this->belongsToMany('Group');
+    }
 }

@@ -4,12 +4,19 @@ use Illuminate\Database\Seeder;
 
 // composer require laracasts/testdummy
 use Laracasts\TestDummy\Factory as TestDummy;
-
+use StrimUp\Notification;
 class NotificationsTableSeeder extends Seeder {
 
     public function run()
     {
-        // TestDummy::times(20)->create('App\Post');
+        try{
+        	Notification::truncate();
+        	Notification::create([
+        		
+        	]);
+        }catch(exception $e){
+
+        }
     }
 
 }

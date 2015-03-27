@@ -18,10 +18,10 @@ class DatabaseSeeder extends Seeder {
 		$this->call('ProfilesTableSeeder');
 
 		$this->call('InstitutionsTableSeeder');
-		$this->call('ClassesTableSeeder');
+		
 		$this->call('InstructorsTableSeeder');
 
-		$this->call('TutorialsTableSeeder');
+		
 		$this->call('VideosTableSeeder');
 		$this->call('NotesTableSeeder');
 		$this->call('ExamplesTableSeeder');
@@ -31,6 +31,9 @@ class DatabaseSeeder extends Seeder {
 		$this->call('MessagesTableSeeder');
 		$this->call('NotificationsTableSeeder');
 
+		//down here is causing problem
+		//$this->call('ClassTableSeeder');
+		$this->call('TutorialsTableSeeder');
 		$this->command->info('Seeding Completed Successfully...');
 	}
 

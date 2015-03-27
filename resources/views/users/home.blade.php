@@ -15,9 +15,9 @@
                     </div>-->
                     <div class="panel-body">
                         <div class="col-md-7 pull-left" style="border-right: 0px solid #ccc;">
-                            <div class="col-md-4 relativein">
+                            <div class="col-md-4 ">
                                 <img class="img-circle pull-left" src="{{url('img/user.png')}}" alt="Avatar">
-                                <span  class="icon-camera fa fa-fw fa-camera " role="presentation"></span>
+                                <p   class="icon-camera fa fa-fw fa-camera " role="presentation"></p>
                             </div>
                             <div class="col-xs-8">
                                 <p>Muragijimana Richard</p>
