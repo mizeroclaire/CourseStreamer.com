@@ -38,18 +38,18 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 	
 	public function tutorials()
 	{
-		return $this->hasMany('Tutorial');
+		return $this->hasMany('StrimUp\Tutorial');
 	}
 
 	public function institutions()
 	{
-		return $this->hasMany('Institution');
+	return $this->belongsTo('StrimUp\Institution');
 	}
 	public function mates()
 	{
-		return $this->hasMany('Mates');
+		return $this->hasMany('StrimUp\Mate');
 	}
 	public function groups(){
-        return $this->belongsToMany('Group');
+        return $this->belongsToMany('StrimUp\Group');
     }
 }

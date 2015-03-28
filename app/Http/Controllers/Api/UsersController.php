@@ -1,9 +1,13 @@
 <?php
 namespace StrimUp\Http\Controllers\Api;
+use StrimUp\Assignment;
 use StrimUp\Http\Requests;
 use StrimUp\Http\Controllers\Controller;
 use StrimUp\Auth;
-use StrimUp\Tutorial;
+
+
+use StrimUp\Institution;
+use StrimUp\Message;
 use StrimUp\User;
 class UsersController extends Controller {
 
@@ -39,12 +43,8 @@ class UsersController extends Controller {
    //showing home@Strims with user's record
     if(!$this->middleware('auth')){//remove ! for production i am testing that's why i don't need more login every time a test
         //if a use logged in let access all
-        /*return view('users.home')
-            ->with('profile',$this->getUserProfile())
-            ->with('currentClass',$this->getUserCurrentClass())
-            ->with('CurrentGroup',$this->getUserTutorials(User::find('1')))
-            ->with('CurrentGroup',$this->getUserCurrentGroups());*/
-            return $this->getUserTutorials();
+        //return view('users.home');
+        return $message=(string) User::find(1)->tutorials;
             
     }else{
         return redirect('/')->with('message','You are not allowed to view this file please log in first!');
@@ -54,12 +54,18 @@ class UsersController extends Controller {
 
   }
   public function getUserTutorials(){
-    return $user=User::find(1);
+      return $message=(string) User::find(1)->institution;
   }
    public function getUserCurrentClass(){
         
   }
+  public function getUserMessage(){
+    return $message=User::find(1)->tutorials();
+  }
    public function getUserCurrentGroups(){
        
+  }
+  public function getuserGroups(){
+
   }
 }

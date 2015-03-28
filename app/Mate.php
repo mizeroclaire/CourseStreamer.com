@@ -1,8 +1,9 @@
-<?php namespace StrimUp;
+<?php 
+namespace StrimUp;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Mates extends Model {
+class Mate extends Model {
 
 	protected $table = 'mates';
 
